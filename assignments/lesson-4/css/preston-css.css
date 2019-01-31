@@ -27,8 +27,11 @@ nav a {
     text-decoration: none;
     font-size: 30px;
 }
-.menu li {
+.menu1 li {
     display: inline-block;
+}
+.menu2 li {
+    display: block;
 }
 header {
     margin: 10px auto;

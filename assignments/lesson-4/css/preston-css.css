@@ -40,8 +40,8 @@ header {
     box-shadow: 0 0 20px #4169e1;
     text-align: center;
 }
-.motto {
-    text: italic;
+div .motto {
+    text: italic, 20px;
 }
 header img, .headings {
     display: inline-block;

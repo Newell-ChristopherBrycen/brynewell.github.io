@@ -78,5 +78,5 @@ footer{
 footer img {
     max-width: 540px;
     max-height: auto;
-    text-align: center;
+    vertical-align: center;
 }

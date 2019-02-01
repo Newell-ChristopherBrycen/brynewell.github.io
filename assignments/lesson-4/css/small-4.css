@@ -43,8 +43,8 @@ nav a {
     font-size: 30px;
 }
 nav a:visited {
-    color: black;
     background-color: #1E90FF;
+    color: black;
 }
 nav a:hover {
     background-color: #1E90FF;

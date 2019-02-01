@@ -1,5 +1,6 @@
 .headings {
-    
+    text-emphasis: bold;
+    text: 20px; 
 }
 body {
     font-size: 16px;

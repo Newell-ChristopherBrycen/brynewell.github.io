@@ -66,13 +66,11 @@ section .headings {
         font-size: 30px; 
         font-family: "Palatino Linotype", Georgia, serif;
 }
-footer{
+footer {
     margin: 10px auto;
     background-color: #00Bfff;
     border: 5px solid #ffffff;
     box-shadow: 0 0 30px #00Bfff;
-}
-.footerheading {
     text-align: center;
 }
 footer img {

@@ -91,19 +91,12 @@ footer {
 .contact{
     text-align: left;
 }
-.article1 { margin: 10px auto;
+.article1, .weather { margin: 10px auto;
     background-color: #00Bfff;
     border: 5px solid #ffffff;
     box-shadow: 0 0 30px #00Bfff;
     text-align: left;
-    border-spacing: 5px;
-}
-.weather { margin: 10px auto;
-    background-color: #00Bfff;
-    border: 5px solid #ffffff;
-    box-shadow: 0 0 30px #00Bfff;
-    text-align: left;
-    border-spacing: 5px;
+    padding: 4px;
 }
 .responsive {
     width: 100%;

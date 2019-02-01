@@ -40,13 +40,14 @@ header {
     box-shadow: 0 0 20px #4169e1;
     text-align: center;
 }
-
+.motto {
+    text: italic;
+}
 header img, .headings {
     display: inline-block;
     vertical-align: middle;
     margin: 10px;
-    text: italic;
-}
+    }
 footer img {
     max-width: 480px;
     max-height: auto;

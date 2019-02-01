@@ -67,6 +67,7 @@ header {
 .motto {
     font-style: italic;
     font-size: 20px;
+    border: none;
 }
 header img, .headings {
     display: inline-block;

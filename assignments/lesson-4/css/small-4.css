@@ -72,7 +72,7 @@ header img, .headings {
     display: inline-block;
     vertical-align: middle;
     margin: 10px;
-    max-width: page;
+    max-width: auto;
     max-height: auto;
 }
 .headings {
@@ -90,10 +90,6 @@ footer {
 .contact{
     text-align: left;
 }
-footer img, article img {
-    max-width: auto;
-    max-height: auto;
-}
 .article1 { margin: 10px auto;
     background-color: #00Bfff;
     border: 5px solid #ffffff;
@@ -105,4 +101,8 @@ footer img, article img {
     border: 5px solid #ffffff;
     box-shadow: 0 0 30px #00Bfff;
     text-align: left;
+}
+.responsive {
+    width: 100%;
+    height: auto;
 }

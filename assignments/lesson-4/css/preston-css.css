@@ -73,8 +73,10 @@ footer {
     box-shadow: 0 0 30px #00Bfff;
     text-align: center;
 }
+div .contact{
+    text-align: right;
+}
 footer img {
     max-width: 540px;
     max-height: auto;
-    vertical-align: center;
 }

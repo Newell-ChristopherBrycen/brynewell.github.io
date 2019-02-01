@@ -42,7 +42,7 @@ nav a {
     font-size: 30px;
 }
 nav a:visited {
-    color: green;
+    color: darkblue;
 }
 nav a:hover {
     background-color: #1E90FF;
@@ -92,3 +92,15 @@ footer img, article img {
     max-width: auto;
     max-height: auto;
 }
+.article1 { margin: 10px auto;
+    background-color: #00Bfff;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 30px #00Bfff;
+    text-align: center;
+}
+.weather { margin: 10px auto;
+    background-color: #00Bfff;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 30px #00Bfff;
+    text-align: center;
+}}

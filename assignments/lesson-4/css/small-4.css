@@ -79,9 +79,9 @@ div .contact{
 }
 footer img {
     max-width: auto;
-    max-height: 600px;
+    max-height: auto;
 }
 article img {
     max-width: auto;
-    max-height: 600px
+    max-height: auto;
 }

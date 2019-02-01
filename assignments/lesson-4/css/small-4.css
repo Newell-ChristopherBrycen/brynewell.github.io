@@ -22,7 +22,7 @@ nav .menu1{
     overflow: hidden;
 }
 nav .menu2{
-    max-width: 960 px;
+    max-width: 720 px;
     margin: 0 auto;
     background-color: #00Bfff;
     text-align: center;
@@ -75,7 +75,7 @@ header img, .headings {
     max-width: page;
     max-height: auto;
 }
-section .headings {
+.headings {
         font-style: bold;
         font-size: 30px; 
         font-family: "Palatino Linotype", Georgia, serif;
@@ -98,11 +98,11 @@ footer img, article img {
     background-color: #00Bfff;
     border: 5px solid #ffffff;
     box-shadow: 0 0 30px #00Bfff;
-    text-align: center;
+    text-align: left;
 }
 .weather { margin: 10px auto;
     background-color: #00Bfff;
     border: 5px solid #ffffff;
     box-shadow: 0 0 30px #00Bfff;
-    text-align: center;
-}}
+    text-align: left;
+}

@@ -46,7 +46,7 @@ nav a:hover {
     background-color: #1E90FF;
     color: #ffffff;
 }
-nav a:visited {
+nav a .current {
     background-color: #1E90FF;
     color: black;
 }

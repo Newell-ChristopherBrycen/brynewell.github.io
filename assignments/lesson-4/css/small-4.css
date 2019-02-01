@@ -78,11 +78,7 @@ footer {
 div .contact{
     text-align: right;
 }
-footer img {
-    max-width: auto;
-    max-height: auto;
-}
-article img {
+footer img, article img {
     max-width: auto;
     max-height: auto;
 }

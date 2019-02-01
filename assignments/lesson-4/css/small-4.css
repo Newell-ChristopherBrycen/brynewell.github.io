@@ -42,13 +42,13 @@ nav a {
     text-decoration: none;
     font-size: 30px;
 }
-nav a:visited {
-    background-color: #1E90FF;
-    color: black;
-}
 nav a:hover {
     background-color: #1E90FF;
     color: #ffffff;
+}
+nav a:visited {
+    background-color: #1E90FF;
+    color: black;
 }
 .menu1 li {
     display: inline-block;

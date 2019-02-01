@@ -60,6 +60,7 @@ header img, .headings {
     display: inline-block;
     vertical-align: middle;
     margin: 10px;
+    max-width: auto;
 }
 section .headings {
         font-style: bold;

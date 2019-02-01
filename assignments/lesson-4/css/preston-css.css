@@ -72,6 +72,9 @@ footer{
     border: 5px solid #ffffff;
     box-shadow: 0 0 30px #00Bfff;
 }
+.footerheading {
+    text-align: center;
+}
 footer img {
     max-width: 540px;
     max-height: auto;

@@ -69,11 +69,11 @@ section .headings {
 footer{
     margin: 10px auto;
     background-color: #00Bfff;
-    border: 1px solid #ffffff;
+    border: 5px solid #ffffff;
     box-shadow: 0 0 30px #00Bfff;
 }
 footer img {
     max-width: 540px;
     max-height: auto;
-    text-align: center;
+    align-self: center;
 }

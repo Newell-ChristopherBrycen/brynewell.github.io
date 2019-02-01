@@ -88,10 +88,7 @@ footer {
     box-shadow: 0 0 30px #00Bfff;
     text-align: center;
 }
-.contact{
-    text-align: left;
-}
-.article1, .weather { margin: 10px auto;
+.article1, .weather, .contact { margin: 10px auto;
     background-color: #00Bfff;
     border: 5px solid #ffffff;
     box-shadow: 0 0 30px #00Bfff;

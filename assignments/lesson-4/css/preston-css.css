@@ -43,6 +43,7 @@ nav a:hover {
 }
 .menu2 li {
     display: block;
+    text-align: center;
 }
 header {
     margin: 10px auto;
@@ -70,9 +71,9 @@ footer{
     background-color: #00Bfff;
     border: 1px solid #ffffff;
     box-shadow: 0 0 30px #00Bfff;
-    text-align: center;
 }
 footer img {
-    max-width: 480px;
+    max-width: 540px;
     max-height: auto;
+    text-align: center;
 }

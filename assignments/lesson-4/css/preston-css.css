@@ -1,8 +1,4 @@
-section .headings {
-    font-style: bold;
-    font-size: 30px; 
-    font-family: "Palatino Linotype", Georgia, serif;
-}
+
 body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,6 +34,10 @@ nav a {
     text-decoration: none;
     font-size: 30px;
 }
+nav a:hover {
+    background-color: #1E90FF;
+    color: #bbbbbb;
+}
 .menu1 li {
     display: inline-block;
 }
@@ -59,7 +59,12 @@ header img, .headings {
     display: inline-block;
     vertical-align: middle;
     margin: 10px;
-    }
+}
+section .headings {
+        font-style: bold;
+        font-size: 30px; 
+        font-family: "Palatino Linotype", Georgia, serif;
+}
 footer img {
     max-width: 480px;
     max-height: auto;

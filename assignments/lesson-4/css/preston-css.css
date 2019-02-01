@@ -65,6 +65,13 @@ section .headings {
         font-size: 30px; 
         font-family: "Palatino Linotype", Georgia, serif;
 }
+footer{
+    margin: 10px auto;
+    background-color: #00Bfff;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 30px #00Bfff;
+    text-align: center;
+}
 footer img {
     max-width: 480px;
     max-height: auto;

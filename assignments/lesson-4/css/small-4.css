@@ -78,6 +78,10 @@ div .contact{
     text-align: right;
 }
 footer img {
-    max-width: 540px;
-    max-height: auto;
+    max-width: auto;
+    max-height: 600px;
+}
+article img {
+    max-width: auto;
+    max-height: 600px
 }

@@ -13,7 +13,7 @@ body {
     background-color: #ffffff;
 }
 nav .menu1{
-    max-width: 960 px;
+    max-width: 960px;
     margin: 0 auto;
     background-color: #1E90FF;
     text-align: center;
@@ -22,7 +22,7 @@ nav .menu1{
     overflow: hidden;
 }
 nav .menu2{
-    max-width: 720 px;
+    max-width: 960px;
     margin: 0 auto;
     background-color: #00Bfff;
     text-align: center;
@@ -74,8 +74,6 @@ header img, .headings {
     display: inline-block;
     vertical-align: middle;
     margin: 10px;
-    max-width: auto;
-    max-height: auto;
 }
 .headings {
         font-weight: bold;

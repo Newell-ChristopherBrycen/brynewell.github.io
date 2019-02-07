@@ -98,7 +98,7 @@ footer {
     padding: 4px;
 }
 .article1 {
-    float: left;
+    float: right;
 }
 .article1, .weather { margin: 10px auto;
     background-color: #00Bfff;

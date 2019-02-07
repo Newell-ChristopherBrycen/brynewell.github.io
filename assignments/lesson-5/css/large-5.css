@@ -1,6 +1,9 @@
 @media screen and (min-width: 960px) {
+    nav .menu1 {
+        list-style-type: none;
+        margin: 0;
+        padding: 0; 
+    }
 
 
-
-    
 }

@@ -97,6 +97,9 @@ footer {
     text-align: left;
     padding: 4px;
 }
+.article1 {
+    float: left;
+}
 .article1, .weather { margin: 10px auto;
     background-color: #00Bfff;
     border: 5px solid #ffffff;

@@ -49,7 +49,7 @@ nav a:visited {
     background-color: #1E90FF;
     color: black;
 }
-div .menu1 {
+nav .menu1 {
     width: 35px;
     height: 5px;
     background-color: black;

@@ -108,7 +108,7 @@ footer {
     padding: 4px;
 }
 .weather ul {
-    float: left;
+    display: left;
 }
 .responsive {
     width: 100%;

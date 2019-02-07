@@ -50,11 +50,11 @@ nav a:visited {
     color: black;
 }
 .menu1 li {
-    display: inline-block;
+    display: none;
     text-align: center;
 }
 .menu2 li {
-    display: block;
+    display: none;
     text-align: center;
 }
 header {

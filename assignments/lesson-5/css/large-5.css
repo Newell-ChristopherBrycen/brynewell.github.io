@@ -56,11 +56,11 @@ nav a:visited {
     color: black;
 }
 .menu1 li {
-    display: none;
+    display: inline-block;
     text-align: center;
 }
 .menu2 li {
-    display: none;
+    display: inline;
     text-align: center;
 }
 header {

@@ -60,10 +60,11 @@ div ul li a:visited {
 }
 
 .topnav #mylinks {
-    display: none;
+    
+    display: block;
     text-align: center;
 }
-.topnav a {color: black; padding: 14px 16px; text-decoration: none; font-size: 14px; display: block; }
+.topnav a {color: white; padding: 14px 16px; text-decoration: none; font-size: 14px; display: block; }
 .topnav a.icon {background:black; display: block;}
 .bars {color:skyblue;}
 

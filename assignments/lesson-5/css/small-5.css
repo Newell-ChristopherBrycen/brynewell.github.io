@@ -136,7 +136,10 @@ footer {
     height: auto;
     font-size: 10px;
 }
-
+.fiveday {
+    visibility: hidden;
+    
+}
 .responsive {
     width: 100%;
     height: auto;

@@ -39,6 +39,8 @@ div ul {
 }
 div ul #myLinks {
     display: block;
+    list-style-type: none;
+    padding: 0;
 }
 div ul li a {
     display: block;
@@ -63,7 +65,8 @@ div ul li a:visited {
 }
 .topnav a {color: black; padding: 14px 16px; text-decoration: none; font-size: 14px; display: block; }
 .topnav a.icon {background:black; display: block;}
-.bars {color:white;}
+.bars {color:skyblue;}
+
 
 .menu2 ul li {
     display: none;

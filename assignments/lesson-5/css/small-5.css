@@ -108,7 +108,7 @@ footer {
     text-align: left;
     padding: 4px;
 }
-.weather { margin: 10px auto;
+.weatherdiv { margin: 10px auto;
     background-color: #00Bfff;
     box-shadow: 0 0 30px #00Bfff;
     text-align: left;
@@ -117,6 +117,12 @@ footer {
 }
 .weatherlist {
     position: absolute;
+    top: 25px;
+    right: 50px;
+    background: lightblue;
+    border: 1px solid #000000
+    padding: 1.2rem;
+    box-shadow: 0 0 20px #fff;
 }
 
 .responsive {

@@ -19,7 +19,7 @@ body {
     margin: 2px;
 }
 main {position: relative; display: block;}
-nav .topnav{
+div .topnav{
     max-width: 960px;
     margin: 0 auto;
     background-color: #1E90FF;
@@ -37,11 +37,11 @@ nav .menu2{
     padding: 0;
     overflow: hidden;
 }
-nav ul {
+div .topnav ul {
     list-style-type: none;
     padding: 0;
 }
-nav a {
+div .topnav ul li a {
     display: block;
     color: #ffffff;
     text-align:center;
@@ -49,11 +49,11 @@ nav a {
     text-decoration: none;
     font-size: 30px;
 }
-nav a:hover {
+div a:hover {
     background-color: white;
     color: black;
 }
-nav a:visited {
+div a:visited {
     background-color: #1E90FF;
     color: black;
 }

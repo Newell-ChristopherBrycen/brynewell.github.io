@@ -142,6 +142,6 @@ footer {
     height: auto;
 }
 .smaller {font-size: 11px;}
-.active {color: red; background-color: white;}
+.active {color: red; background-color: darkblue;}
 .foot {position: relative;}
 }

@@ -58,8 +58,9 @@ div ul li a:visited {
     display: none;
     text-align: center;
 }
-.topnav a {color: white; padding: 14px 16px; text-decoration: none; font-size: 14px; display: block; }
-.topnav a.icon {background:white; display: block;}
+.topnav a {color: black; padding: 14px 16px; text-decoration: none; font-size: 14px; display: block; }
+.topnav a.icon {background:black; display: block;}
+.bars {color:white;}
 
 .menu2 ul li {
     display: none;

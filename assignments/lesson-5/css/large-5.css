@@ -103,7 +103,9 @@ footer {
     box-shadow: 0 0 30px #00Bfff;
     text-align: left;
     padding: 4px;
+    position: absolute;
 }
+#articlepic {position: right;}
  .weatherdiv { margin: 10px auto;
     background-color: #00Bfff;
     box-shadow: 0 0 30px #00Bfff;

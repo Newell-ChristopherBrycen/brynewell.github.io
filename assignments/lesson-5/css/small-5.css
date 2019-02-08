@@ -138,10 +138,13 @@ footer {
 }
 .fiveday {
     visibility: hidden;
-    width: 80%;
+    width: auto;
     align-content: center;
     height: auto;
-    
+}
+.fivedaypic {
+    width: 80%;
+    height: auto;    
 }
 .responsive {
     width: 100%;

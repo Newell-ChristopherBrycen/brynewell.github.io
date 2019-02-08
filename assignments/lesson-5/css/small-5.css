@@ -132,5 +132,5 @@ footer {
     height: auto;
 }
 .smaller {font-size: 11px;}
-.active {color: red;}
+.active {color: red; background-color: white;}
 }

@@ -1,9 +1,5 @@
 @media screen and (min-width: 992px) {
-    div .topnav {
-        list-style-type: none;
-        margin: 0;
-        padding: 0; 
-    }
+
     * {font-size: 1.1rem; font-weight: 700;}
 h1 {font-size: 50px; color: #ffffff; text-shadow: 1px 4px 6px #bbbbbb}
 h2 {font-size: 30px;}
@@ -27,6 +23,7 @@ div .topnav{
     box-shadow: 0px 3px 3px #bbbbbb;
     padding: 0;
     overflow: hidden;
+    list-style-type: none;
 }
 nav .menu2{
     max-width: 960px;

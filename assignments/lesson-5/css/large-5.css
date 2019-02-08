@@ -127,7 +127,7 @@ footer {
 .fiveday {
     display: block;
     width: 80%;
-    align-content: center;
+    align-items: center;
     height: auto;
     
 }

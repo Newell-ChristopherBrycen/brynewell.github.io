@@ -1,5 +1,5 @@
 @media screen and (max-width: 991px) {
-    
+
 * {font-size: 1.1rem; font-weight: 700;}
 h1 {font-size: 50px; color: #ffffff; text-shadow: 1px 4px 6px #bbbbbb}
 h2 {font-size: 30px;}
@@ -53,8 +53,8 @@ div ul li a {
     font-size: 30px;
 }
 div ul li a:hover {
-    background-color: black;
-    color: #ffffff;
+    background-color: darkblue;
+    color: yellow;
 }
 div ul li a:visited {
     background-color: #1E90FF;

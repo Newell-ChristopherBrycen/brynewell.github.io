@@ -37,6 +37,9 @@ div ul {
     list-style-type: none;
     padding: 0;
 }
+div ul #myLinks {
+    display: block;
+}
 div ul li a {
     display: block;
     color: #ffffff;

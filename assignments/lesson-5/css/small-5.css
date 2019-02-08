@@ -115,7 +115,7 @@ footer {
     padding: 4px;
     position: absolute;
 }
-#weatherimage {position relative;}
+#weatherimage {position: relative;}
 }
 .responsive {
     width: 100%;
@@ -127,4 +127,3 @@ footer {
 }
 .smaller {font-size: 11px;}
 .active {color: red;}
-}

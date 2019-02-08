@@ -52,7 +52,7 @@ nav a:visited {
     background-color: #1E90FF;
     color: black;
 }
-nav .topnav {
+div .topnav {
     width: 35px;
     height: 5px;
     background-color: black;
@@ -60,11 +60,13 @@ nav .topnav {
     padding: 14px 16px;
     display: block;
   }
-.topnav ul li {
+.topnav #mylinks {
     display: none;
     text-align: center;
 }
-.topnav ul li a.icon {background: black; display: block; position: absolute; right: 0; top: 0;}
+.topnav a {color: white; padding: 14px 16px; text-decoration: none; font-size: 14px; display: block; }
+.topnav a.icon {background: black; display: block; position: absolute; right: 0; top: 0;}
+
 .menu2 ul li {
     display: none;
     text-align: center;

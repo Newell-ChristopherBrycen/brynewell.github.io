@@ -52,7 +52,7 @@ div ul li a {
     font-size: 30px;
 }
 div ul li a:hover {
-    background-color: #1E90FF;
+    background-color: black;
     color: #ffffff;
 }
 div ul li a:visited {

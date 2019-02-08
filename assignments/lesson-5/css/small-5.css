@@ -52,7 +52,7 @@ nav a:visited {
     background-color: #1E90FF;
     color: black;
 }
-nav .menu1 {
+nav .topnav {
     width: 35px;
     height: 5px;
     background-color: black;
@@ -60,11 +60,11 @@ nav .menu1 {
     padding: 14px 16px;
     display: block;
   }
-.menu1 ul li {
+.topnav ul li {
     display: none;
     text-align: center;
 }
-.menu1 ul li a.icon {background: black; display: block; position: absolute; right: 0; top: 0;}
+.topnav ul li a.icon {background: black; display: block; position: absolute; right: 0; top: 0;}
 .menu2 ul li {
     display: none;
     text-align: center;

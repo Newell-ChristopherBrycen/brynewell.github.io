@@ -134,6 +134,6 @@ footer {
     height: auto;
 }
 .smaller {font-size: 11px;}
-.active {color:green; background-color: white;}
+.active {color:green; background-color: darkblue;}
 .foot {position: relative;}
 }

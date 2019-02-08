@@ -145,7 +145,7 @@ footer {
     width: 25%;
     height: auto;
 }
-.smaller {font-size: 11px;}
+.smaller {font-size: 11px;color:white;}
 .active {color: red; background-color: darkblue;}
 .foot {position: relative;}
 }

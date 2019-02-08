@@ -108,14 +108,14 @@ footer {
     text-align: left;
     padding: 4px;
 }
- .weather { margin: 10px auto;
+.weather { margin: 10px auto;
     background-color: #00Bfff;
     box-shadow: 0 0 30px #00Bfff;
     text-align: left;
     padding: 4px;
+    position: absolute;
 }
-.weather ul {
-    display: left;
+#weatherimage {position relative;}
 }
 .responsive {
     width: 100%;

@@ -14,7 +14,7 @@ body {
     margin: 1px;
 }
 main {position: relative; display: block;}
-nav .menu1{
+div .topnav{
     max-width: 960px;
     margin: 0 auto;
     background-color: #1E90FF;
@@ -22,6 +22,7 @@ nav .menu1{
     box-shadow: 0px 3px 3px #bbbbbb;
     padding: 0;
     overflow: hidden;
+    position:relative;
 }
 nav .menu2{
     max-width: 960px;
@@ -32,11 +33,11 @@ nav .menu2{
     padding: 0;
     overflow: hidden;
 }
-nav ul {
+div ul {
     list-style-type: none;
     padding: 0;
 }
-nav a {
+div ul li a {
     display: block;
     color: #ffffff;
     text-align:center;
@@ -44,19 +45,15 @@ nav a {
     text-decoration: none;
     font-size: 30px;
 }
-nav a:hover {
+div ul li a:hover {
     background-color: #1E90FF;
     color: #ffffff;
 }
-nav a:visited {
+div ul li a:visited {
     background-color: #1E90FF;
     color: black;
 }
-div .topnav {
-    overflow:hidden;
-    background-color: #1E90FF;
-    position:relative;
-  }
+
 .topnav #mylinks {
     display: none;
     text-align: center;

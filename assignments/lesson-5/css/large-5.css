@@ -133,4 +133,5 @@ footer {
 }
 .smaller {font-size: 11px;}
 .active {color:green; background-color: white;}
+.foot {position: relative;}
 }

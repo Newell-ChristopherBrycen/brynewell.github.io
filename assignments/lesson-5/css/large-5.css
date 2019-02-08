@@ -124,6 +124,13 @@ footer {
     box-shadow: 0 0 20px #fff;
     
 }
+.fiveday {
+    
+    width: 80%;
+    align-content: center;
+    height: auto;
+    
+}
 .contact {position: relative;}
 .responsive {
     width: 75% ;

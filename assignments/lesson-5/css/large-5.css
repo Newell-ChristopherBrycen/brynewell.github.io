@@ -96,6 +96,7 @@ footer {
     text-align: center;
 }
 .contact{
+    position: relative;
     text-align: left;
     padding: 4px;
 }

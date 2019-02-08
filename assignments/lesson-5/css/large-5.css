@@ -50,7 +50,7 @@ div .topnav ul li a {
     font-size: 30px;
 }
 div a:hover {
-    background-color: white;
+    background-color: black;
     color: whitesmoke;
 }
 div a:visited {

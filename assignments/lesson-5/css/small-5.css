@@ -53,12 +53,9 @@ nav a:visited {
     color: black;
 }
 div .topnav {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-    padding: 14px 16px;
-    display: block;
+    overflow:hidden;
+    background-color: #1E90FF;
+    position:relative;
   }
 .topnav #mylinks {
     display: none;

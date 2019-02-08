@@ -56,11 +56,14 @@ nav .menu1 {
     height: 5px;
     background-color: black;
     margin: 6px 0;
+    padding: 14px 16px;
+    display: block;
   }
 .menu1 li {
-    display: inline-block;
+    display: none;
     text-align: center;
 }
+.menu1 li a.icon {background: black; display: block; position: absolute; right: 0; top: 0;}
 .menu2 li {
     display: none;
     text-align: center;

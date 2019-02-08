@@ -120,5 +120,6 @@ footer {
     width: 25%;
     height: auto;
 }
-.smaller {font-size: 11px}
+.smaller {font-size: 11px;}
+.active {color: red;}
 }

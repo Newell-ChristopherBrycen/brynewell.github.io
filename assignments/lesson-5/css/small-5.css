@@ -15,7 +15,7 @@ body {
     margin: 1px;
 }
 main {position: relative; display: block;}
-div .topnav{
+.topnav{
     max-width: 960px;
     margin: 0 auto;
     background-color: #1E90FF;
@@ -24,6 +24,7 @@ div .topnav{
     padding: 0;
     overflow: hidden;
     position:relative;
+    visibility: hidden;
 }
 nav .menu2{
     max-width: 960px;
@@ -33,6 +34,7 @@ nav .menu2{
     box-shadow: 0px 3px 3px #bbbbbb;
     padding: 0;
     overflow: hidden;
+    visibility: hidden;
 }
 div ul {
     list-style-type: none;

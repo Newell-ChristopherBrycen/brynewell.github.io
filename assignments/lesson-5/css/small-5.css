@@ -36,16 +36,16 @@ nav .menu2{
     overflow: hidden;
     visibility: hidden;
 }
-div ul {
+nav ul {
     list-style-type: none;
     padding: 0;
 }
-div ul #myLinks {
+nav ul #myLinks {
     display: block;
     list-style-type: none;
     padding: 0;
 }
-div ul li a {
+nav ul li a {
     display: block;
     color:white;
     
@@ -54,11 +54,11 @@ div ul li a {
     text-decoration: none;
     font-size: 30px;
 }
-div ul li a:hover {
+nav ul li a:hover {
     background-color: darkblue;
     color: yellow;
 }
-div ul li a:visited {
+nav ul li a:visited {
     background-color: #1E90FF;
     color: black;
 }

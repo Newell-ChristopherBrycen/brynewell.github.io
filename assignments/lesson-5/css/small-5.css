@@ -137,7 +137,7 @@ footer {
     box-shadow: 0 0 20px #fff;
     width: 95px;
     height: auto;
-    font-size: 1px;
+    font-size: 1em;
 }
 .fiveday {
     display: none;

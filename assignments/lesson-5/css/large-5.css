@@ -131,6 +131,8 @@ footer {
     width: 50% ;
     height: auto;
     background-position: 27rem;
+    float: right;
+    
 }
 .logo {
     width: 25%;

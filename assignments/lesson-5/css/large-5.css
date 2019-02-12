@@ -102,7 +102,7 @@ footer {
     box-shadow: 0 0 30px #00Bfff;
     text-align: left;
     padding: 4px;
-    position: absolute;
+    display: block;
 }
 
  .weatherdiv { margin: 10px auto;

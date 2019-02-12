@@ -97,7 +97,7 @@ footer {
     text-align: center;
 }
 .contact{
-    position: relative;
+    
     text-align: left;
     padding: 4px;
 }
@@ -114,9 +114,9 @@ footer {
     box-shadow: 0 0 30px #00Bfff;
     text-align: left;
     padding: 4px;
-    position: relative;}
+ }
  .weatherlist{
-    position: absolute;
+    position: relative;
     top: 100px;
     left: 50px;
     background: lightblue;
@@ -130,10 +130,10 @@ footer {
     width: 80%;
     align-items: center;
     height: auto;
-    position: absolute;
+    
     
 }
-.contact {position: relative;}
+
 .responsive {
     width: 75% ;
     height: auto;

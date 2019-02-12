@@ -23,7 +23,6 @@ main {position: relative; display: block;}
     box-shadow: 0px 3px 3px #bbbbbb;
     padding: 0;
     overflow: hidden;
-    position:relative;
     display: none;
 }
 nav .menu2{

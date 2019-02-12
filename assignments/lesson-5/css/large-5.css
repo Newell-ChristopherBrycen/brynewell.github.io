@@ -126,6 +126,7 @@ footer {
     width: 80%;
     align-items: center;
     height: auto;
+    position: absolute;
     
 }
 .contact {position: relative;}

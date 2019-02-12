@@ -24,7 +24,7 @@ main {position: relative; display: block;}
     padding: 0;
     overflow: hidden;
     position:relative;
-    visibility: hidden;
+    display: none;
 }
 nav .menu2{
     max-width: 960px;
@@ -34,7 +34,7 @@ nav .menu2{
     box-shadow: 0px 3px 3px #bbbbbb;
     padding: 0;
     overflow: hidden;
-    visibility: hidden;
+    display: none;
 }
 nav ul {
     list-style-type: none;
@@ -141,14 +141,15 @@ footer {
     font-size: 10px;
 }
 .fiveday {
-    visibility: hidden;
+    display: none;
     width: auto;
     align-content: center;
     height: auto;
 }
 .fivedaypic {
     width: 80%;
-    height: auto;    
+    height: auto;  
+    display: none;  
 }
 .responsive {
     width: 100%;

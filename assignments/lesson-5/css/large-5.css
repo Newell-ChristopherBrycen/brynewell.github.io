@@ -1,14 +1,6 @@
 @media screen and (min-width: 64em) {
 
-    * {font-size: 1.1rem; font-weight: 700;}
-h1 {font-size: 50px; color: #ffffff; text-shadow: 1px 4px 6px #bbbbbb}
-h2 {font-size: 30px;}
-h1, h2, h3, h4 { font-family: 'Noto Sans', 'PT serif', Georgia, serif; text-align: center;}
-p {display:block;
-    margin-block-end: 1em;
-    margin-block-start: 1em;
-    margin-inline-start: 0
-}
+
 
 div {margin: 5px; border: 1px solid #999999; padding: 5px; background-color: #1E90FF}
 

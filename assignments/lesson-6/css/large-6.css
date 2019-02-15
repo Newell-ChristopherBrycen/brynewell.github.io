@@ -44,6 +44,7 @@ header {
     border: 1px solid #ffffff;
     box-shadow: 0 0 20px #4169e1;
     text-align: center;
+    
 }
 .motto {
     font-style: italic;
@@ -79,6 +80,7 @@ footer {
     text-align: left;
     padding: 4px;
     display: block;
+    clear: both;
 }
 
  .weatherdiv { margin: 10px auto;

@@ -1,0 +1,144 @@
+@media screen and (min-width: 64em) {
+
+
+
+div {margin: 5px; border: 1px solid #999999; padding: 5px; background-color: #1E90FF}
+
+body {
+    font-size: 16px;
+    font-family: 'Noto Sans', 'PT serif', Georgia, serif;
+    background-color: #ffffff;
+    margin: 2px;
+}
+main {display: block;}
+nav .topnav{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #1E90FF;
+    text-align: center;
+    box-shadow: 0px 3px 3px #bbbbbb;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    display: inline-block;
+}
+nav .menu2{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #00Bfff;
+    text-align: center;
+    box-shadow: 0px 3px 3px #bbbbbb;
+    padding: 0;
+    overflow: hidden;
+}
+nav .topnav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav .topnav ul li a {
+    display: block;
+    color: #ffffff;
+    text-align:center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+}
+nav a:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+nav a:visited {
+    background-color: #1E90FF;
+    color: whitesmoke;
+}
+.topnav ul li {
+    display: inline-block;
+    text-align: center;
+}
+.menu2 li {
+    display: inline;
+    text-align: center;
+}
+header {
+    margin: 10px auto;
+    background-color: #4169e1;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 20px #4169e1;
+    text-align: center;
+}
+.motto {
+    font-style: italic;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+header img, .headings {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+.headings {
+        font-weight: bold;
+        font-size: 30px; 
+        font-family: 'Noto Sans', 'PT serif', Georgia, serif;
+}
+footer {
+    margin: 10px auto;
+    background-color: #00Bfff;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 30px #00Bfff;
+    text-align: center;
+}
+.contact{
+    
+    text-align: left;
+    padding: 4px;
+}
+.article1 { margin: 10px auto;
+    background-color: #00Bfff;
+    box-shadow: 0 0 30px #00Bfff;
+    text-align: left;
+    padding: 4px;
+    display: block;
+}
+
+ .weatherdiv { margin: 10px auto;
+    background-color: #00Bfff;
+    box-shadow: 0 0 30px #00Bfff;
+    text-align: left;
+    padding: 4px;
+ }
+ .weatherlist{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    background: lightblue;
+    border: 1px solid #000000;
+    padding: 1.2rem;
+    box-shadow: 0 0 20px #fff;
+    
+}
+.fiveday {
+    display: block;
+    width: 80%;
+    align-items: center;
+    height: auto;
+    
+    
+}
+
+.responsive {
+    width: 25% ;
+    height: auto;
+    background-position: 27rem;
+    float: right;
+    
+}
+.logo {
+    width: 25%;
+    height: auto;
+}
+.smaller {font-size: 11px;}
+.active {color:green; background-color: darkblue;}
+.foot {position: relative;}
+}

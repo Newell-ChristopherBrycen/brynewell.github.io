@@ -1,6 +1,6 @@
-n =  new Date();
-gd =  n.getDate();
-y = n.getFullYear();
+var n =  new Date();
+var gd =  n.getDate();
+var y = n.getFullYear();
         var m;
 switch (n.getMonth()){
     case 0:

@@ -113,7 +113,7 @@ footer {
     height: auto;
     background-position: 27rem;
     float: right;
-    
+    clear: both;
 }
 .logo {
     width: 25%;

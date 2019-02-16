@@ -35,4 +35,4 @@ let y = n.getFullYear();
         
     
     let date = (d + " ," + gd + " " + m + " " + y);
-document.getElementById("date").innerHTML = date;
+document.getElementById("currentdate").innerHTML = date;

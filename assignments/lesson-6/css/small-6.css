@@ -113,3 +113,4 @@ footer {
 .active {color: red; background-color: darkblue;}
 .date {display: inline-block}
 .hero {height: auto; width: 40%}
+div a {background-color: black;}

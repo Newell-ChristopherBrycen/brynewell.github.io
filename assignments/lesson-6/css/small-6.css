@@ -16,7 +16,7 @@ body {
 }
 main {position:relative; display: block;}
 .topnav{
-    max-width: 960px;
+    max-width: 760px;
     margin: 0 auto;
     background-color: #1E90FF;
     text-align: center;

@@ -39,9 +39,9 @@ header img, .headings {
     clear: both;
 }
 .weatherlist{
-    top: 100px;
+    top: initial;
     left: 50px;
- 
+    position: absolute;
 }
 .fiveday {
     display: block;
@@ -58,3 +58,4 @@ header img, .headings {
 }
 .foot {display:inline-block;}
 }
+.hero {display:inline-block;}

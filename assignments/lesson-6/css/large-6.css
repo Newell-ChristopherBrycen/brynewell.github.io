@@ -8,6 +8,7 @@
 nav .menu2{
     display:inline-block;
 }
+.weatherlist {widows: 90%;}
 .navigation ul {
     list-style-type: none;
     padding: 0;

@@ -62,4 +62,5 @@ switch (n.getMonth()){
     case 6:
     day = "Saturday";  
     }
-document.getElementById("date").innerHTML = day + " ," + gd + " " + m + " " + y;
+    var date = (day + " ," + gd + " " + m + " " + y)
+document.getElementById("date").innerHTML = date;

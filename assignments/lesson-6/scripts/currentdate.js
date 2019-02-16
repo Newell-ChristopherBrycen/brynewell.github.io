@@ -1,9 +1,9 @@
-var n =  new Date();
-var gd =  n.getDate();
-var y = n.getFullYear();
+let n =  new Date();
+let gd =  n.getDate();
+let y = n.getFullYear();
         
     
-        var month = new Array(12);
+        let month = new Array(12);
         month[0] = "January";
         month[1] = "February";
         month[2] = "March";
@@ -17,12 +17,12 @@ var y = n.getFullYear();
         month[10] = "Novemeber";
         month[11] = "December";
 
-        var m = month[n.getMonth()];
+        let m = month[n.getMonth()];
         
     
 
    
-        var weekday = new Array(7);
+        let weekday = new Array(7);
         weekday[0] = "Sunday";
         weekday[1] = "Monday";
         weekday[2] = "Tuesday";
@@ -31,8 +31,8 @@ var y = n.getFullYear();
         weekday[5] = "Friday";
         weekday[6] = "Saturday";
 
-        var d = weekday[n.getDay()];
+        let d = weekday[n.getDay()];
         
     
-    var date = (d + " ," + gd + " " + m + " " + y);
+    let date = (d + " ," + gd + " " + m + " " + y);
 document.getElementById("date").innerHTML = date;

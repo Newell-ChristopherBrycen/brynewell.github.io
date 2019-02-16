@@ -109,4 +109,4 @@ footer {
 }
 .smaller {font-size: 11px;color:white;}
 .active {color: red; background-color: darkblue;}
-
+.date {display: inline-block}

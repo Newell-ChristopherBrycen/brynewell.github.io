@@ -14,7 +14,7 @@ body {
     background-color: #ffffff;
     margin: 2px;
 }
-main {position: relative; display: block;}
+main {display: block;}
 .topnav{
     max-width: 960px;
     margin: 0 auto;

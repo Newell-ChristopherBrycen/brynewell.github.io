@@ -28,7 +28,7 @@ nav a:visited {
     background-color: #1E90FF;
     color: whitesmoke;
 }
-
+.responsive li {display:block;}
 .menu2 ul li {
     display: none;
     text-align: center;
@@ -99,7 +99,7 @@ footer {
     display: none;
 }
 
-.responsive {
+.responsivepicture {
     width: 100%;
     height: auto;
 }

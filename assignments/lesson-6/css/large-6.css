@@ -79,7 +79,7 @@ footer {
     box-shadow: 0 0 30px #00Bfff;
     text-align: left;
     padding: 4px;
-    display: block;
+    display: inline-block;
     clear: both;
 }
 

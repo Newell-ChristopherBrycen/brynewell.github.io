@@ -45,7 +45,7 @@ header img, .headings {
  
 }
 .fiveday {
-    display: inline-block;
+    display: block;
     width: 80%;
     align-items: center;
     height: auto;

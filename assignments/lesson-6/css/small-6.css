@@ -11,9 +11,10 @@ div {margin: 5px; border: 1px solid #999999; padding: 5px; background-color: #1E
 body {
     font-size: 14px;
     font-family: 'Noto Sans', 'PT serif', Georgia, serif;
-    background-color: #ffffff;
+    background-color: yellow;
     margin: 2px;
 }
+header { background-color: #bbbbbb; text-align: center;}
 main {position:relative; display: block;}
 nav {	margin: 0 auto;	max-width: 760px; background-color: #1E90FF;	}
 .navigation{

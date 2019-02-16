@@ -95,9 +95,9 @@ header img, .headings {
     margin: 10px;
 }
 .headings {
-        font-weight: bold;
-        font-size: 30px; 
-       
+    font-weight: bold;
+    font-size: 30px; 
+    font-family: 'Noto Sans', 'PT serif', Georgia, serif;
 }
 footer {
     margin: 10px auto;
@@ -110,8 +110,6 @@ footer {
     text-align: left;
     padding: 4px;
 }
-
-
 .article1{ margin: 10px auto;
     background-color: #00Bfff;
     box-shadow: 0 0 30px #00Bfff;

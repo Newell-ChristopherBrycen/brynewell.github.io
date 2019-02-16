@@ -35,46 +35,15 @@ nav a:visited {
     text-align: center;
 }
 .menu2 li {
-    display: inline;
+    display: inline-block;
     text-align: center;
-}
-header {
-    margin: 10px auto;
-    background-color: #4169e1;
-    border: 1px solid #ffffff;
-    box-shadow: 0 0 20px #4169e1;
-    text-align: center;
-    
-}
-.motto {
-    font-style: italic;
-    font-size: 20px;
-    border: none;
-    color: white;
 }
 header img, .headings {
     display: inline-block;
     vertical-align: middle;
     margin: 10px;
 }
-.headings {
-        font-weight: bold;
-        font-size: 30px; 
-        font-family: 'Noto Sans', 'PT serif', Georgia, serif;
-}
-footer {
-    margin: 10px auto;
-    background-color: #00Bfff;
-    border: 5px solid #ffffff;
-    box-shadow: 0 0 30px #00Bfff;
-    text-align: center;
-}
-.article1 { margin: 10px auto;
-    background-color: #00Bfff;
-    box-shadow: 0 0 30px #00Bfff;
-    text-align: left;
-    padding: 4px;
-    display: inline-block;
+.article1 {display: inline-block;
     clear: both;
 }
 .weatherlist{
@@ -91,7 +60,6 @@ footer {
 
 .responsive {
     width: 25% ;
-    height: auto;
     background-position: 27rem;
     float: right;
     clear: both;

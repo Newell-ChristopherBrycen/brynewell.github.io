@@ -138,6 +138,7 @@ footer {
     width: 95px;
     height: auto;
     font-size: 1em;
+    clear: both;
 }
 .fiveday {
     display: none;

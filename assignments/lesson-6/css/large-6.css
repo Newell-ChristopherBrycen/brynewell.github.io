@@ -82,22 +82,10 @@ footer {
     display: inline-block;
     clear: both;
 }
-
- .weatherdiv { margin: 10px auto;
-    background-color: #00Bfff;
-    box-shadow: 0 0 30px #00Bfff;
-    text-align: left;
-    padding: 4px;
- }
- .weatherlist{
-    position: relative;
+.weatherlist{
     top: 100px;
     left: 50px;
-    background: lightblue;
-    border: 1px solid #000000;
-    padding: 1.2rem;
-    box-shadow: 0 0 20px #fff;
-    
+ 
 }
 .fiveday {
     display: block;

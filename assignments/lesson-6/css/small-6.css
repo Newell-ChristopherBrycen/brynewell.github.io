@@ -27,7 +27,7 @@ nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
 .navigation a {color: white; padding: .75rem; text-decoration: none; text-align: center; display: block; }
 .navigation a:hover {color: #000; background-color: #fff; font-weight: 700;}
 nav a:visited {
-    background-color: #1E90FF;
+    background-color:gray;
     color: whitesmoke;
 }
 .menu2 ul li {
@@ -46,6 +46,7 @@ header {
     font-size: 20px;
     border: none;
     color: white;
+    background-color: #000000;
 }
 header img, .headings {
     display: inline-block;

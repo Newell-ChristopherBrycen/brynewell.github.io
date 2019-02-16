@@ -84,7 +84,7 @@ footer {
     align-content: center;
 }
 .weatherlist {
-    position: relative;
+    position: absolute;
     top: 100px;
     left: 25px;
     background: lightblue;

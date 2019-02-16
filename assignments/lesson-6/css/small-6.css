@@ -109,9 +109,8 @@ footer {
     width: 25%;
     height: auto;
 }
-.smaller {font-size: 11px;color:white;}
+.smaller {font-size: 11px;color:white; background-color: black;}
 .active {color: red; background-color: darkblue;}
 .date {display: inline-block}
 .hero {height: auto; width: 40%}
-div a {background-color: black;}
 header img {background-color:white;}

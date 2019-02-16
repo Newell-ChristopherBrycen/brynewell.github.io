@@ -88,12 +88,10 @@ footer {
  
 }
 .fiveday {
-    display: block;
+    display: inline-block;
     width: 80%;
     align-items: center;
     height: auto;
-    
-    
 }
 
 .responsive {

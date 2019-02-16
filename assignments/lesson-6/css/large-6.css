@@ -5,7 +5,7 @@
 
 
 .navigation{
-   display: inline-block;
+   display: inline-block; margin-right: 1rem;
 }
 .navigation li:first-child { display: none;}
 nav .menu2{

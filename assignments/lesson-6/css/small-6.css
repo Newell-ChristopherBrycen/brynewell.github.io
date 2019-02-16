@@ -114,4 +114,4 @@ footer {
 .date {display: inline-block}
 .hero {height: auto; width: 40%}
 header img {background-color:white;}
-.terms {color: yellow;}
+.terms {font-size: 11px; color: yellow; background-color: black;}

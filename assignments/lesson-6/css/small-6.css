@@ -16,7 +16,7 @@ body {
 }
 header { background-color: #bbbbbb; text-align: center;}
 main {position:relative; display: block;}
-nav {	margin: 0 auto;	max-width: 760px; background-color: #1E90FF;	}
+nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
 .navigation{
     list-style: none; 
     text-align: center;

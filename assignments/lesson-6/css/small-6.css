@@ -15,62 +15,19 @@ body {
     margin: 2px;
 }
 main {position:relative; display: block;}
-.topnav{
-    max-width: 760px;
-    margin: 0 auto;
+nav {	margin: 0 auto;	max-width: 760px; background-color: #1E90FF;	}
+.navigation{
+    list-style: none; 
+    text-align: center;
+}
+.navigation li:first-child { display: block;}
+.navigation li{display:none;}
+.navigation a {color: white; padding: .75rem; text-decoration: none; text-align: center; display: block; }
+.navigation a:hover {color: #000; background-color: #fff; font-weight: 700;}
+nav a:visited {
     background-color: #1E90FF;
-    text-align: center;
-    box-shadow: 0px 3px 3px #bbbbbb;
-    padding: 0;
-    overflow: hidden;
-    display: none;
+    color: whitesmoke;
 }
-nav .menu2{
-    max-width: 960px;
-    margin: 0 auto;
-    background-color: #00Bfff;
-    text-align: center;
-    box-shadow: 0px 3px 3px #bbbbbb;
-    padding: 0;
-    overflow: hidden;
-    display: none;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-nav ul #myLinks {
-    display: block;
-    list-style-type: none;
-    padding: 0;
-}
-nav ul li a {
-    display: block;
-    color:white;
-    
-    text-align:center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 30px;
-}
-nav ul li a:hover {
-    background-color: darkblue;
-    color: yellow;
-}
-nav ul li a:visited {
-    background-color: #1E90FF;
-    color: black;
-}
-
-.topnav #mylinks {
-    
-    display: block;
-    text-align: center;
-}
-.topnav a {color: white; padding: 14px 16px; text-decoration: none; font-size: 14px; display: block; }
-.topnav a.icon {background:black; display: block;}
-.bars {color:skyblue;}
-
 
 .menu2 ul li {
     display: none;

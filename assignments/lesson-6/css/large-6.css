@@ -4,17 +4,17 @@
 
 
 
-nav .topnav{
+.navigation{
    display: inline-block;
 }
 nav .menu2{
     display:inline-block;
 }
-nav .topnav ul {
+.navigation ul {
     list-style-type: none;
     padding: 0;
 }
-nav .topnav ul li a {
+.navigation ul li a {
     display: block;
     color: #ffffff;
     text-align:center;
@@ -22,15 +22,8 @@ nav .topnav ul li a {
     text-decoration: none;
     font-size: 30px;
 }
-nav a:hover {
-    background-color: black;
-    color: whitesmoke;
-}
-nav a:visited {
-    background-color: #1E90FF;
-    color: whitesmoke;
-}
-.topnav ul li {
+
+.navigation ul li {
     display: inline-block;
     text-align: center;
 }

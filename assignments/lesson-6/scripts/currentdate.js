@@ -2,65 +2,33 @@ var n =  new Date();
 var gd =  n.getDate();
 var y = n.getFullYear();
         var m;
-switch (n.getMonth()){
-    case 0:
-    m = "January";
-    break;
-    case 1:
-    m = "February";
-    break;
-    case 2:
-    m = "March";
-    break;
-    case 3:
-    m = "April";
-    break;
-    case 4:
-    m = "May";
-    break;
-    case 5:
-    m = "June";
-    break;
-    case 6:
-    m = "July";
-    break;
-    case 7:
-    m = "August";
-    break;
-    case 8:
-    m = "September";
-    break;
-    case 9:
-    m = "October";
-    break;
-    case 10:
-    m = "November";
-    break;
-    case 11:
-    m = "December";
-}
-                var day;
-    switch(n.getDay()) {
-    case 0:  
-    day = "Sunday";
-    break;
-    case 1:
-    day = "Monday";
-    break;
-    case 2:
-    day = "Tuesday";
-    break;
-    case 3:
-    day = "Wednesday";
-    break;
-    case 4:
-    day = "Thursday";
-    break;
-    case 5:
-    day = "Friday";
-    break;
-    case 6:
-    day = "Saturday";  
+    function getMonth() {
+        var month = new Array(12);
+        month[0] = "January";
+        month[1] = "February";
+        month[2] = "March";
+        month[3] = "April";
+        month[4] = "May";
+        month[5] = "June";
+        month[6] = "July";
+        month[7] = "August";
+        month[8] = "September";
+        month[9] = "October";
+        month[10] = "Novemeber";
+        month[11] = "December";
     }
-    var date = (day + " ," + gd + " " + m + " " + y)
+
+    function getWeekday() {
+        var weekday = new Array(7);
+        weekday[0] = "Sunday";
+        weekday[1] = "Monday";
+        weekday[2] = "Tuesday";
+        weekday[3] = "Wednesday";
+        weekday[4] = "Thursday";
+        weekday[5] = "Friday";
+        weekday[6] = "Saturday";
+
+        var d = weekday[n.getDay()]
+    }
+    var date = (weekday + " ," + gd + " " + m + " " + y)
 document.getElementById("date").innerHTML = date;

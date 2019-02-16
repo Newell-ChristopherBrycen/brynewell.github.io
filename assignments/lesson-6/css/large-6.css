@@ -64,5 +64,5 @@ header img, .headings {
     float: right;
     clear: both;
 }
-.foot {position: relative;}
+.foot {display:inline-block;}
 }

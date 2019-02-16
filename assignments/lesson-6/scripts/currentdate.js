@@ -18,6 +18,7 @@ var y = n.getFullYear();
         month[11] = "December";
 
         var m = month[n.getMonth()];
+        return m;
     }
 
     function getWeekday() {
@@ -31,6 +32,7 @@ var y = n.getFullYear();
         weekday[6] = "Saturday";
 
         var d = weekday[n.getDay()];
+        return d;
     }
-    var date = (weekday + " ," + gd + " " + month + " " + y)
+    var date = (d + " ," + gd + " " + m + " " + y)
 document.getElementById("date").innerHTML = date;

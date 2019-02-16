@@ -34,5 +34,5 @@ let y = n.getFullYear();
         let d = weekday[n.getDay()];
         
     
-    let date = (d + " ," + gd + " " + m + " " + y);
+    let date = (d + ", " + gd + " " + m + " " + y);
 document.getElementById("currentdate").innerHTML = date;

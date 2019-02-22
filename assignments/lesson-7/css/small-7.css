@@ -26,7 +26,7 @@ nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
 .navigation li:first-child { display: block;}
 .navigation li {display:none;}
 .responsive li {display:block;}
-.navigation a {color: white; padding: .75rem; text-decoration: none; text-align: center; display: block; }
+.navigation a {color: white; text-decoration: none; text-align: center; display: block; }
 .navigation a:hover {color: #000; background-color: #fff; font-weight: 700;}
 nav a:visited {
     background-color:gray;

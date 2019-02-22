@@ -58,5 +58,6 @@
         clear: both;
     }
     .foot {display:inline-block;}
-    }
+    
     .hero {display:inline-block; height: auto; width: 100%}
+}

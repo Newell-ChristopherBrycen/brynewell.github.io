@@ -14,7 +14,7 @@ body {
     background-color: yellow;
     margin: 2px;
 }
-header { background-color: #bbbbbb; text-align: center;}
+header { background-color: #bbbbbb; text-align: center; display:flex; flex-direction: row;}
 main {position:relative; display: block;}
 nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
 .navigation{

@@ -114,6 +114,6 @@ footer {
 .smaller {font-size: 12px;color:white; background-color: black;}
 .active {color: red; background-color: darkblue;}
 .date {display: inline-block}
-.hero {height: auto; width: 40%}
+.hero {height: auto; width: 100%}
 header img {background-color:white;}
 .terms {font-size: 12px; color: yellow;}

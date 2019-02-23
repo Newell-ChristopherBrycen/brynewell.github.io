@@ -60,4 +60,5 @@
     .foot {display:inline-block;}
     #weathergallery {display:grid; grid-template-columns: 1fr 1fr 1fr;grid-gap: 20px;}
     .hero {display:inline-block; height: auto; width: 100%}
+    .pictureholder:hover {  box-shadow: 0 0 50px #333333; }
 }

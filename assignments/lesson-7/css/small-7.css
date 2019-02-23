@@ -17,7 +17,16 @@ body {
     padding: 2rem;
     
 }
-header { background-color: #bbbbbb; text-align: center; display:flex; flex-direction: row;}
+header { text-align: center;
+     display:flex; 
+     flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 10px auto; 
+    background-color: #4169e1; 
+    border: 1px solid #ffffff; 
+    box-shadow: 0 0 20px #4169e1; 
+}
 main {position:relative; display: block;}
 nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
 .navigation{
@@ -40,13 +49,7 @@ nav a:visited {
     display: none;
     text-align: center;
 }
-header {
-    margin: 10px auto;
-    background-color: #4169e1;
-    border: 1px solid #ffffff;
-    box-shadow: 0 0 20px #4169e1;
-    text-align: center;
-}
+
 .motto {
     font-style: italic;
     font-size: 20px;

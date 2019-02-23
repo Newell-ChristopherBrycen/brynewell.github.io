@@ -20,8 +20,9 @@ nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
 .navigation{
     list-style: none; 
     text-align: center;
-    display:flex;
+    display: flex;
     flex-direction: column;
+    align-content: space-between;
 }
 .navigation li:first-child { display: block;}
 .navigation li {display:none;}
@@ -94,7 +95,7 @@ footer {
     border: 1px solid #000000;
     padding: 1.2rem;
     box-shadow: 0 0 20px #fff;
-    width: 95px;
+    width: auto;
     height: auto;
     font-size: 1em;
     clear: both;

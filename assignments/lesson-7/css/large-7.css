@@ -58,6 +58,6 @@
         clear: both;
     }
     .foot {display:inline-block;}
-    #weathergallery {display:grid;}
+    #weathergallery {display:grid; grid-template-columns: 1fr 1fr 1fr;}
     .hero {display:inline-block; height: auto; width: 100%}
 }

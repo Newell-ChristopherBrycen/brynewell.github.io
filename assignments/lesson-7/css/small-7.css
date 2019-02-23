@@ -126,4 +126,4 @@ footer {
 .hero {height: auto; width: 100%}
 header img {background-color:white;}
 .terms {font-size: 12px; color: yellow;}
-#weathergallery {display:grid;}
+#weathergallery {display:grid; grid-template-columns: 1fr;}

@@ -28,7 +28,7 @@ header { text-align: center;
     border: 1px solid #ffffff; 
     box-shadow: 0 0 20px #4169e1; 
 }
-main {position:relative; display: block; border: 5px; border-color: white;}
+main {position:relative; display: block; }
 nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
 .navigation{
     list-style: none; 
@@ -85,14 +85,14 @@ footer {
     box-shadow: 0 0 30px #00Bfff;
     text-align: left;
     padding: 4px;
-    
+    border: 5px; border-color: white;
 }
 .weatherdiv { margin: 10px auto;
     background-color: #00Bfff;
     box-shadow: 0 0 30px #00Bfff;
     text-align: left;
     padding: 4px;
-    
+    border: 5px; border-color: white;
     align-content: center;
 }
 .weatherlist {

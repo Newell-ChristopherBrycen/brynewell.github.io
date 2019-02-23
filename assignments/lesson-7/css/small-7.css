@@ -28,7 +28,7 @@ header { text-align: center;
     border: 1px solid #ffffff; 
     box-shadow: 0 0 20px #4169e1; 
 }
-main {position:relative; display: block;}
+main {position:relative; display: block; border: 5px; border-color: white;}
 nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
 .navigation{
     list-style: none; 
@@ -72,7 +72,7 @@ header img, .headings {
 footer {
     margin: 10px auto;
     background-color: #00Bfff;
-    border: 5px solid #ffffff;
+    border: 5px #ffffff;
     box-shadow: 0 0 30px #00Bfff;
     text-align: center;
 }

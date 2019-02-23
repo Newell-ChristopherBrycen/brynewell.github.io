@@ -12,9 +12,9 @@ body {
     font-size: 14px;
     font-family: 'Noto Sans', 'PT serif', Georgia, serif;
     background-color: yellow;
-    margin: 2px;
+    margin: 5px;
     max-width: 70%;
-    padding: 2em;
+    padding: 2rem;
     
 }
 header { background-color: #bbbbbb; text-align: center; display:flex; flex-direction: row;}

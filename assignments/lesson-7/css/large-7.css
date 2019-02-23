@@ -58,6 +58,6 @@
         clear: both;
     }
     .foot {display:inline-block;}
-    
+    #weathergallery {display:grid;}
     .hero {display:inline-block; height: auto; width: 100%}
 }

@@ -3,7 +3,7 @@
     .navigation {display: flex; flex-direction: row;}
     .navigation li:first-child { display: none;}
     .navigation li{
-        display: inline-block; margin-right: 1rem;
+        display: inline-block; 
      }
     nav .menu2{
         display:inline-block;

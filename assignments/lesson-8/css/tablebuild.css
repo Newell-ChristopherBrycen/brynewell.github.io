@@ -1,33 +1,40 @@
 html {font-family: 'Ubuntu', sans-serif;}
+body {display:block;}
 
 table {
     border-collapse: collapse;
-    border: 2px solid rgb(200,200,200);
+    border: 2px solid darkslategray;
     letter-spacing: 1px;
-    font-size: 0.8rem;
+    box-shadow: 7px 7px 14px #628ca6;
+    width: 300px;
   }
+  tbody {font-size: .9em; font-weight: 300}
+  thead:first-child th {background-color: #7fb9c2; color: black; font-size: 1.4rem;}
   
-  td, th {
-    border: 1px solid rgb(190,190,190);
+    td, th {
+    display:table-cell;
+    border: 1px solid rgb(170, 185, 185);
     padding: 10px 20px;
+    
   }
-  
-  th {
-    background-color: rgb(235,235,235);
+  tr:nth-child(5) td:nth-child(3) {background-color: #628ca6; color: white;}
+  th { 
+    background-color:#628ca6; color: white;
   }
   
   td {
     text-align: center;
   }
   
+  tr:nth-child(6) td:first-child {font-style: italic;}
   tr:nth-child(even) td {
-    background-color: rgb(250,250,250);
+    background-color:#e7ffed;
   }
   
   tr:nth-child(odd) td {
-    background-color: rgb(245,245,245);
+    background-color:#e7f0ed;
   }
-  
+  tfoot tr#tablefoot td {background-color: #7fb9c2; font-size: .6rem; text-align: center;}
   caption {
     padding: 10px;
   }

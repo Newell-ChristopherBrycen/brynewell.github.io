@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>prestonidaho.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+        <meta name="description" content="City of Preston Website Project. Contains weather information for the City of Preston and an Article section. Includes a map of the area.">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif%7cPT+Serif" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="stylesheet" href="css/small-8.css">
+        <link rel="stylesheet" href="css/large-8.css">
+        <link rel="stylesheet" href="css/medium-8.css">
+               
+    </head>
+    <body>
+        <header>
+            <img src="images/logo-preston.jpg" alt="City of Preston Logo" class="logo">
+            <section class="headings">
+                <h1>Town of Preston, Idaho</h1>
+            </section>
+            <div class="motto">"We Know Weather"</div>
+            <nav>
+                <ul class="navigation"> 
+                        <li><a href="#" title="Menu" onclick="toggleMenu()"> &#9776; Menu</a></li>           
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="#" class="active">Preston</a></li>
+                        <li><a href="soda-springs.html">Soda Springs</a></li>
+                        <li><a href="fish-haven.html">Fish Haven</a></li>
+                        <li><a href="stormcenter.html">Storm Center</a></li>
+                        <li><a href="gallery-7.html">Gallery</a></li>
+                </ul>
+                
+                
+            </nav>
+        </header>
+        <main>
+            <h2>The Beautiful Town of Preston</h2>
+            
+            
+            <div class="weatherdiv">
+                <h3>Weather Summary</h3>
+                <section class="weatherlist">
+                    <p>Currently: Cloudy</p>
+                    <p><em>High</em>: <span id="hightemp">78</span> &#8457;</p>
+                    <p><em>Low</em>: <span id="lowtemp">67</span> &#8457;</p>
+                    <p>Humidity: 65%</p>
+                    <p><em>Wind Speed</em>: <span id="windspeed">3</span> mph</p>
+                    <p><em>Wind Chill</em>: <span id="windchill"> </span> &#8457;</p>
+                </section>
+                <img srcset="images/cit230-lesson6-hero-image.jpeg" alt="Preston Hero Image" class="hero">
+            </div>
+            
+            <div class="fiveday">
+                <img src="images/five-day-forecast.jpg" alt="Five Day Forecast">
+            </div>
+           <br>
+            <article class="article1">
+                
+                <h3>Article Title</h3>
+                <h4>by author</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue elit, venenatis sed ligula vel, accumsan vehicula sem. Phasellus convallis, diam sit amet malesuada tincidunt, ligula neque tristique nibh, ut efficitur urna ante at nisl. Donec ut arcu in dui rutrum dictum et eu lacus. In aliquam ornare tortor eu scelerisque. Donec nunc nulla, porttitor sed justo ac, placerat condimentum neque. Mauris lacinia est et orci suscipit, eget sagittis arcu rhoncus. Nullam et condimentum sem. Vestibulum ullamcorper ut ex nec rutrum. Curabitur malesuada, metus eu aliquet volutpat, turpis neque interdum elit, a pulvinar nulla sem sit amet eros. Proin posuere pellentesque magna sed finibus.
+                <img src="https://images.pexels.com/photos/1694642/pexels-photo-1694642.jpeg?cs=srgb&dl=idaho-lake-landscape-1694642.jpg&fm=jpg"  alt="Preston Article Image" id="articlepic" class="responsivepicture"></p>
+            </article>
+        </main>
+        <footer class="foot">
+            <div class="contact">
+                <h3>Contact Us:</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue elit, venenatis sed ligula vel, accumsan vehicula sem. Phasellus convallis, diam sit amet malesuada tincidunt, ligula neque tristique nibh, ut efficitur urna ante at nisl. Donec ut arcu in dui rutrum dictum et eu lacus. In aliquam ornare tortor eu scelerisque. Donec nunc nulla, porttitor sed justo ac, placerat condimentum neque. Mauris lacinia est et orci suscipit, eget sagittis arcu rhoncus. Nullam et condimentum sem. Vestibulum ullamcorper ut ex nec rutrum. Curabitur malesuada, metus eu aliquet volutpat, turpis neque interdum elit, a pulvinar nulla sem sit amet eros. Proin posuere pellentesque magna sed finibus.</p>
+                    <br>
+            </div> 
+            <h3 class="footerheading">Map of Preston</h3>
+            <img src="images/map-of-preston.jpg" alt="Map of Preston" class="responsivepicture">
+            <nav class="menu2">
+                    <ul>
+                        <li><a href="https://brynewell.github.io/">Home</a></li>
+                        <li><a href="#" class="current">Preston</a></li>
+                        <li><a href="soda-springs.html">Soda Springs</a></li>
+                        <li><a href="fish-haven.html">Fish Haven</a></li>
+                        <li><a href="storm-center.html">Storm Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+            </nav>
+            <div class="smaller">
+                    Copyright &copy; 2019 | C. Brycen Newell |  The Town of Preston  | <a href="#" class="terms">Terms of Use</a>        
+            </div>
+            <span id="currentdate"> </span>
+        </footer>
+        <script src="scripts/hamburger.js"> </script>
+        <script src="scripts/currentdate.js">  </script> 
+        <script src="scripts/windchill.js"> </script>
+    </body>
+</html>

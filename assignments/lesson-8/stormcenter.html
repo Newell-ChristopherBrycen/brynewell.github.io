@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Stormcenter Input Form for Preston, Soda Springs, and Fish Haven.">
+<meta name="author" content="Brycen Newell">
+
+<title>Storm Center by Brycen Newell</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+     
+</head>
+<body>
+
+	<header>
+ <h1>Storm Center</h1>
+        
+    
+    
+    <div class="motto">"We Know Weather"</div>
+            <nav>
+                <ul class="navigation"> 
+                        <li><a href="#" title="Menu" onclick="toggleMenu()"> &#9776; Menu</a></li>           
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="preston-8.html">Preston</a></li>
+                        <li><a href="soda-springs.html">Soda Springs</a></li>
+                        <li><a href="fish-haven.html">Fish Haven</a></li>
+                        <li><a href="#"  class="active">Storm Center</a></li>
+                        <li><a href="gallery-8.html">Gallery</a></li>
+                </ul>
+                
+                
+            </nav>
+
+    
+        </header>
+    
+
+<main>
+    <h1>Storm Center Live Updates</h1>
+        <form method="get" action="thanks.html">
+            <fieldset name="userinfo">
+                <legend>User Information</legend>
+                <label class="top">Full Name*<input type="text" name="fullname" pattern="[A-Za-z' -]{5,30}" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone<input type="tel" name="phone" required></label>
+                <label class="top">Zip Code<input type="number" name="zipcode" required></label>
+            </fieldset>
+
+            <fieldset name="storminfo">
+                <legend>Storm Information</legend>
+                <label class="top"><input type="date" name="stormdate">Storm Date</label>
+
+                <input type="text" name="stormtype" list="stormlist" pattern="[Ff]lash Flood|[Hh]ail|[Hh]urricane|[Tt]hunderstorm|[Tt]ornado">Storm Type
+                <datalist class="top" id="stormlist">
+                    <option>Flash Flood</option>
+                    <option>Hail</option>
+                    <option>Hurricane</option>
+                    <option>Thunderstorm</option>
+                    <option>Tornado</option>
+                </datalist>
+                
+                
+                Storm Severity <input class="top" type="range" name="stormseverity" id="stormrange" value="5" max="10" min="1" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                 <span id="stormrangevalue"> 5 </span>
+                <label class="top"> Storm Region <select name="region" required>
+                        <option value="" disable selected>Select Region ...</option>
+                        <option value="preston"> Preston</option>
+                        <option value="sodasprings"> Soda Springs</option>
+                        <option value="fishhaven"> Fish Haven</option>
+                    </select>
+                </label>
+
+            </fieldset>
+            <fieldset name="danger">
+                <legend>Are You In Danger?</legend>
+
+                <label class="sbs"><input type="radio" name="inDanger" value="yes">Yes</label>
+                <label class="sbs"><input type="radio" name="inDanger" value="maybe">Maybe</label>
+                <label class="sbs"><input type="radio" name="inDanger" value="no">No</label>
+                
+                
+            </fieldset>
+
+            <fieldset name="additionalinfofield">
+                <legend>Tell Us More</legend>
+                <textarea id="additionalinfo" name="additionalinfo" rows="6" cols="35"></textarea>
+            </fieldset>
+            
+            <input type="submit" value="Report On Your Local Weather" class="submitBtn">
+
+
+        </form>
+
+          
+        
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        &copy; 2019 &bull; Brycen Newell &bull; 123-555-6789
+    </footer>
+<script src="scripts/stormrangeadjust.js"></script>
+</body>
+</html>

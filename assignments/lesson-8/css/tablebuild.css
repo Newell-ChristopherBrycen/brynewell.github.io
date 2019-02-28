@@ -9,7 +9,7 @@ table {
     width: 300px;
   }
   tbody {font-size: .9em; font-weight: 300}
-  thead:first-child th {background-color: #7fb9c2; color: black; font-size: 1.4rem;}
+  thead:first-child {background-color: #7fb9c2; color: black; font-size: 1.4rem;}
   
     td, th {
     display:table-cell;

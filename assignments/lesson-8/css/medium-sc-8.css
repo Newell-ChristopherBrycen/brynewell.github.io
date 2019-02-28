@@ -1,0 +1,40 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+    
+    
+    
+    /*----------- HEADER --------------*/
+    
+    
+    
+    /*----------- NAVIGATION --------------*/
+    nav {	margin: 0 auto;	max-width: 360px; background-color: #000;	}
+    .navigation{
+        list-style: none; 
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        padding-left: 30rem;
+        padding-right: 30rem
+    }
+    .navigation li:first-child { display: block;}
+    .navigation li {display:none;}
+    .responsive li {display:block;}
+    .navigation a {color: white; text-decoration: none; text-align: center; display: block; }
+    .navigation a:hover {color: #000; background-color: #fff; font-weight: 700;}
+    nav a:visited {
+        background-color:gray;
+        color: whitesmoke;
+    }
+    
+    /*----------- MAIN --------------*/
+    
+    
+    
+    /*----------- FOOTER --------------*/
+        
+    } /* end of media query */

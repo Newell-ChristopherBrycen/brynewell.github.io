@@ -14,13 +14,12 @@
 
 
 <!-- STYLE SHEETS -->
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif%7cPT+Serif" rel="stylesheet">
 <link href="css/normalize.css" rel="stylesheet">
-<!-- phone-default -->
 <link href="css/small-sc-8.css" rel="stylesheet">
-<!-- enhance-tablet -->
-<link href="css/medium-sc-8.css" rel="stylesheet">
-<!-- enhance-desktop -->
 <link href="css/large-sc-8.css" rel="stylesheet">
+<link href="css/medium-sc-8.css" rel="stylesheet">
+
 
 
      
@@ -64,19 +63,20 @@
 
             <fieldset name="storminfo">
                 <legend>Storm Information</legend>
-                <label class="top"><input type="date" name="stormdate">Storm Date</label>
+                <label class="top">Storm Date<input type="date" name="stormdate"></label>
 
-                <input type="text" name="stormtype" list="stormlist" pattern="[Ff]lash Flood|[Hh]ail|[Hh]urricane|[Tt]hunderstorm|[Tt]ornado">Storm Type
-                <datalist class="top" id="stormlist">
+                <label class="top">Storm Type<input type="text" name="stormtype" list="stormlist" pattern="[Ff]lash Flood|[Hh]ail|[Hh]urricane|[Tt]hunderstorm|[Tt]ornado">
+                <datalist class="hidden" id="stormlist">
                     <option>Flash Flood</option>
                     <option>Hail</option>
                     <option>Hurricane</option>
                     <option>Thunderstorm</option>
                     <option>Tornado</option>
                 </datalist>
+                </label>
                 
                 
-                Storm Severity <input class="top" type="range" name="stormseverity" id="stormrange" value="5" max="10" min="1" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                 <input class="top" type="range" name="stormseverity" id="stormrange" value="5" max="10" min="1" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> Storm Severity
                  <span id="stormrangevalue"> 5 </span>
                 <label class="top"> Storm Region <select name="region" required>
                         <option value="" disable selected>Select Region ...</option>

@@ -8,58 +8,50 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: 'Noto Sans', 'PT serif', Georgia, serif;
+    width: 100%;
+    max-width: 34em;
+    
 }
 
 
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: #4169e1;
+    text-align: center;
+    color:white;
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 
 /*----------- NAVIGATION --------------*/
-nav {
-    background-color: #666;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-nav ul li {
-    float: left;
-    width: 25%;
-}
-nav ul li a {
-    display: block;
-    background-color: #444;
-    color: #eee;
-    border-left: 1px solid #777;
-    padding: .5rem 0;
-    text-decoration: none;
-    font-size: .9rem;
+nav {	margin: 0 auto;	max-width: 360px; background-color: #000;	}
+.navigation{
+    list-style: none; 
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding-left: 30rem;
+    padding-right: 30rem
 }
-nav ul li:first-child a {border-left: none;}
+.navigation li:first-child { display: block;}
+.navigation li {display:none;}
+.responsive li {display:block;}
+.navigation a {color: white; text-decoration: none; text-align: center; display: block; }
+.navigation a:hover {color: #000; background-color: #fff; font-weight: 700;}
+nav a:visited {
+    background-color:gray;
+    color: whitesmoke;
+}
 
-nav ul li a:hover {
-    background-color: #eee;
-    color: #333;
-}
-nav ul li.active a {
-    background-color: #000;
-    color: #fff;
-}
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
     min-height: 20rem;
+    color: black;
 }
-/*----------- FORM ---------------*/
-
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #445ba9;
@@ -75,7 +67,7 @@ form legend {
 form label.top, form div {
     display:block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: black;
     font-size: .8rem;
 }
 form label.top input, form label.top select {
@@ -96,9 +88,10 @@ form label.sbs {
     color: #555;
 
 }
+
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #4169e1;
     color:white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -110,8 +103,10 @@ form input.submitBtn {
 form label.top input:required {
     border-left: red solid 6px;
 }
-
-form lable.top input:required:valid {
+#stormlist .hidden {
+    display: none;
+}
+form label.top input:required:valid {
     border-left: green solid 6px;
 }
 

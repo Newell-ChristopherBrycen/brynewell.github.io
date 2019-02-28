@@ -7,7 +7,7 @@
     
     
     /*----------- HEADER --------------*/
-    
+    header {width:42em;}
     
     
     /*----------- NAVIGATION --------------*/
@@ -17,10 +17,9 @@
         text-align: center;
         display: flex;
         flex-direction: row;
-        align-content: space-between;
-        padding-left: 30rem;
-        padding-right: 30rem
-    }
+        align-content: center;
+        justify-content: space-between;
+        padding: 2rem;    }
     .navigation li:first-child { display: block;}
     .navigation li {display:none;}
     .responsive li {display:block;}

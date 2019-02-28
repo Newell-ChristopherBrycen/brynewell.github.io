@@ -1,8 +1,8 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width:100%; max-width: 34rem;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 1.1rem; }
 
 
 /*----------- BODY --------------*/
@@ -21,6 +21,12 @@ header {
     background-color: #4169e1;
     text-align: center;
     color:white;
+    width: 20rem;
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
@@ -31,10 +37,10 @@ nav {	margin: 0 auto;	max-width: 360px; background-color: #000;	}
     list-style: none; 
     text-align: center;
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    padding-left: 30rem;
-    padding-right: 30rem
+    flex-direction: column;
+    align-content: center;
+        justify-content: space-between;
+        padding: 1rem;
 }
 .navigation li:first-child { display: block;}
 .navigation li {display:none;}
@@ -52,6 +58,7 @@ main {
     min-height: 20rem;
     color: black;
 }
+legend {text-emphasis: bold;}
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #445ba9;
@@ -109,8 +116,9 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
-
-
+#additionalinfo {width: 96%;}
+input#stormrange::-webkit-slider-runnable-track {color: black;}
+#stormrangevalue {font-size: 1rem;text-emphasis: bold;display:block;}
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;

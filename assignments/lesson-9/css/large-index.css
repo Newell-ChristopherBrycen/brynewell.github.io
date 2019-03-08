@@ -1,6 +1,26 @@
 @media screen and (min-width: 769px) {
-
-
+    .navigation {display: flex; flex-direction: row;}
+    .navigation li:first-child { display: none;}
+    .navigation li{
+        display: inline-block; padding-inline-end: 4px; padding-inline-start: 4px;
+     }
+     .navigation ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .navigation ul li a {
+        display: block;
+        color: #ffffff;
+        text-align:center;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    
+    .navigation ul li {
+        display: inline-block;
+        text-align: center;
+    }
 
 
 }

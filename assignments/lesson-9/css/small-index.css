@@ -16,7 +16,7 @@ body {
 header {color:white;}
 header section.headings h1 { color: white;}
 nav .navigation li ul {color: white;}
-
+    .navigation {display:flex; flex-direction: column;}
     .navigation li:first-child { display: none;}
     .navigation li{
         display: inline-block; padding-inline-end: 4px; padding-inline-start: 4px;
@@ -58,15 +58,16 @@ header { text-align: center;
 #motto {display: block; font-style: italic; text-align: center;}
 section {border: 1px solid #4169e1; padding: 2px; margin: 2px;
 }
-
+main {display:block;}
+    #section1 {background-color: azure; grid-column-start: auto; grid-row-start: 1;
+    }
+    #section2 {background-color: azure; grid-column-start: auto; grid-row-start: 2;
+    }
+    #section3 {background-color: azure; grid-column-start: auto; grid-row-start: 3;
+    }
+    
 section h1 {color: green; font-size: 30px;}
 header section h1 {font-size: 50px;}
-#section1 {background-color: azure; grid-column-start: 1; 
-      }
-#section2 {background-color: azure; grid-column-start: 2;
-     }
-#section3 {background-color: azure; grid-column-start: 3;
-     }
 
 
 #hero {background-color: azure;}

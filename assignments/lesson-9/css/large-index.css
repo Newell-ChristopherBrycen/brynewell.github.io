@@ -24,6 +24,13 @@
 
 
 }
+#section1 {background-color: azure; grid-column-start: 1; 
+}
+#section2 {background-color: azure; grid-column-start: 2;
+}
+#section3 {background-color: azure; grid-column-start: 3;
+}
+
 img {max-width: -webkit-fill-available;}
 p {padding-left:1.5em;}
 main {display:grid;

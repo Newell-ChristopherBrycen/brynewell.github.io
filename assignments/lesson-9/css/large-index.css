@@ -24,6 +24,9 @@
 
 
 }
+img {max-width: -webkit-fill-available;}
 p {padding-left:1.5em;}
-main {display: grid; grid-column: 3;}
+main {display:grid;
+    grid-template-columns: 33%  33%  33% ;
+    grid-template-rows: auto;}
 #hero {max-width: 90%; display: block; margin-left:2em;}

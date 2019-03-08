@@ -40,7 +40,10 @@ nav .navigation li ul {color: white;}
         text-align: center;
     }
     nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
-
+    nav a:visited {
+        background-color:gray;
+        color: whitesmoke;
+    }
 header .motto {padding-bottom: 4px;  font-style: italic; text-align: center;}
 header { text-align: center;
     display:flex; 
@@ -56,20 +59,25 @@ header { text-align: center;
 section {border: 1px solid #4169e1; padding: 2px; margin: 2px;
 }
 
-section h1 {color: green;}
-#section1 {background-color: azure; 
+section h1 {color: green; font-size: 30px;}
+header section h1 {font-size: 50px;}
+#section1 {background-color: azure; grid-column-start: 1; 
       }
-#section2 {background-color: azure; 
+#section2 {background-color: azure; grid-column-start: 2;
      }
-#section3 {background-color: azure; 
+#section3 {background-color: azure; grid-column-start: 3;
      }
 
 
 #hero {background-color: azure;}
+#heroimage {max-width: 90%;padding:1.4rem;}
+article {background-color:azure;}
 footer {
     margin: 10px auto;
+    padding: 1rem;
     background-color: #4169e1;
     border: 5px #ffffff;
     box-shadow: 0 0 30px #00Bfff;
     text-align: center;
+    color: white;
 }

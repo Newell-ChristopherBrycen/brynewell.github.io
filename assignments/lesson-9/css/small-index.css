@@ -41,7 +41,7 @@ nav .navigation li ul {color: white;}
     }
     nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
 
-header .motto {padding-bottom: 4px;  font-style: italic;}
+header .motto {padding-bottom: 4px;  font-style: italic; text-align: center;}
 header { text-align: center;
     display:flex; 
     flex-direction: row;
@@ -52,18 +52,18 @@ header { text-align: center;
    border: 1px solid #ffffff; 
    box-shadow: 0 0 20px #4169e1; 
 }
-#motto { font-style: italic; text-align: center;}
+#motto {display: block; font-style: italic; text-align: center;}
 section {border: 1px solid #4169e1; padding: 2px; margin: 2px;
 }
 
-section h1 {color: black;}
+section h1 {color: green;}
 #section1 {background-color: azure; 
       }
 #section2 {background-color: azure; 
      }
 #section3 {background-color: azure; 
      }
-main {display: grid; column-count: 3;}
+
 
 #hero {background-color: azure;}
 footer {

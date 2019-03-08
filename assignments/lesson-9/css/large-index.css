@@ -24,5 +24,6 @@
 
 
 }
-main {display: grid; column-count: 3;}
+p {padding-left:1.5em;}
+main {display: grid; grid-column: 3;}
 #hero {max-width: 90%; display: block; margin-left:2em;}

@@ -24,3 +24,5 @@
 
 
 }
+main {display: grid; column-count: 3;}
+#hero {max-width: 90%; display: block; margin-left:2em;}

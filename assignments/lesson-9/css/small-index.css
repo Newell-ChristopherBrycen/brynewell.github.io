@@ -59,12 +59,7 @@ header { text-align: center;
 section {border: 1px solid #4169e1; padding: 2px; margin: 2px;
 }
 main {display:block;}
-    #section1 {background-color: azure; grid-column-start: auto; grid-row-start: 1;
-    }
-    #section2 {background-color: azure; grid-column-start: auto; grid-row-start: 2;
-    }
-    #section3 {background-color: azure; grid-column-start: auto; grid-row-start: 3;
-    }
+ 
     
 section h1 {color: green; font-size: 30px;}
 header section h1 {font-size: 50px;}

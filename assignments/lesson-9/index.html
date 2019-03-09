@@ -70,6 +70,7 @@
                     </div> 
         </footer>
         <script> 
+                
                 const output = document.querySelector('section');
                 const requestURL="https://byui-cit230.github.io/weather/data/towndata.json";
                 const request = new XMLHttpRequest();
@@ -80,43 +81,38 @@
                 
                 request.onload = function() {
                     let citydata = request.response;
-                    let cities = citydata['towns'];
                     
-                    console.log(citydata);
-                
-                                                                                   
-                    cities.forEach(city => {
+                    nameCity(citydata);
+                    
+                }
+                function nameCity(jsonObj)   {                                                                let cities = jsonObj['towns'];
+                for (var i = 0; i < cities.length; i++) { 
                         if (city.name == 'Fish Haven'|| city.name == 'Preston'|| city.name == 'Soda Springs') {
                                 let myH1 = document.createElement('h1');
                                 let myPara1 = document.createElement('p');
                                 let myPara2 = document.createElement('p');
                                 let myPara3 = document.createElement('p');
                                 let myPara4 = document.createElement('p');
-                                let myList = document.createElement('ul');
+                               
                                 
-                                myH1.textContent = city.name;
-                                myPara1.textContent = 'Motto: ' + city.motto;
-                                myPara2.textContent = 'Year Founded: ' + city.yearFounded;
-                                myPara3.textContent = 'Current Population: ' + city.currentPopulation;
-                                myPara4.textContent = 'Average Rainfall: ' + city.averageRainfall;
+                                myH1.textContent = cities[i].name;
+                                myPara1.textContent = 'Motto: ' + cities[i].motto;
+                                myPara2.textContent = 'Year Founded: ' + cities[i].yearFounded;
+                                myPara3.textContent = 'Current Population: ' + cities[i].currentPopulation;
+                                myPara4.textContent = 'Average Rainfall: ' + cities[i].averageRainfall;
                                 
-                                let cityEvents = city.events;
-                                for (let j = 0; j < cityEvents.length; j++) {
-                                    let listItem = document.createElement('li');
-                                    listItem.textContent = cityEvents[j];
-                                    myList.appendChild(listItem);
-                                };
+                               
                                 output.appendChild(myH1);
                                 output.appendChild(myPara1);
                                 output.appendChild(myPara2);
                                 output.appendChild(myPara3);
                                 output.appendChild(myPara4);
-                                output.appendChild(myList);
+                                
                             
                             };   
                             
                             
-                            });
+                            };
                         };
                     
                     </script>

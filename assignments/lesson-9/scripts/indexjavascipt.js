@@ -1,24 +1,26 @@
-let section = document.querySelector('section.section')
 
-let requestURL="https://byui-cit230.github.io/weather/data/towndata.json";
+
+const requestURL="https://byui-cit230.github.io/weather/data/towndata.json";
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 
-request.responseTYPE ='json';
+request.responseTYPE = 'json';
 request.send();
 
 request.onload = function() {
-    let towns = request.response;
-    populateSection(towns);
-    showPlace(towns);
-}
+    let towndata = request.response;
+    let towns = towndata['towns'];
+    let output = document.querySelector('section');
+    
 
-function populateSection(jsonObj) {
-    let towns = jsonObj['towns'];
     let arrayTowns = ["Fish Haven","Preston","Soda Springs"];
-    for (var i=0; i< towns.length; i++){
+
+
+    
+    
+    towns.forEach(towns => {
         for (var s= 0; s < arrayTowns.length; s++) {
-            if (towns[i].name == arrayTowns[s]){ 
+            if (towns[i].name == arrayTowns[s]) { 
                 let myH1 = document.createElement('H1');
                 let myPara1 = document.createElement('p');
                 let myPara2 = document.createElement('p');
@@ -26,29 +28,27 @@ function populateSection(jsonObj) {
                 let myPara4 = document.createElement('p');
                 let myList = document.createElement('ul');
                 
-                myH1.textContent = towns[1].name;
-                myPara1.textContent = 'Motto: ' + towns[1].motto;
-                myPara2.textContent = 'Year Founded: ' + towns[1].yearFounded;
-                myPara3.textContent = 'Current Population: ' + towns[1].currentPopulation;
-                myPara4.textContent = 'Average Rainfall: ' + towns[1].averageRainfall;
+                myH1.textContent = towns[i].name;
+                myPara1.textContent = 'Motto: ' + towns[i].motto;
+                myPara2.textContent = 'Year Founded: ' + towns[i].yearFounded;
+                myPara3.textContent = 'Current Population: ' + towns[i].currentPopulation;
+                myPara4.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
                 
-                let townEvents = towns[1].events;
-                for (let j = 0; j < events.length; j++) {
+                let townEvents = towns[i].events;
+                for (let j = 0; j < townEvents.length; j++) {
                     let listItem = document.createElement('li');
-                    listItem.textContent = towns[j];
+                    listItem.textContent = townEvents[j];
                     myList.appendChild(listItem);
-                }
-                myArticle.appendChild(myH1);
-                myArticle.appendChild(myPara1);
-                myArticle.appendChild(myPara2);
-                myArticle.appendChild(myPara3);
-                myArticle.appendChild(myPara4);
-                myArticle.appendChild(myList);
+                };
+                output.appendChild(myH1);
+                output.appendChild(myPara1);
+                output.appendChild(myPara2);
+                output.appendChild(myPara3);
+                output.appendChild(myPara4);
+                output.appendChild(myList);
             
-                section.appendChild(myArticle);
-            }
-        }
-    }
-    
+            };   
+            };
+        });
+    };
 
-}

@@ -7,12 +7,10 @@ weatherRequest.onload = function() {
     let weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
 
-    document.getElementById('conditions').innerHTML = weatherData.main.;
-    
-    let icon = "http://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png";
-    let desc = weatherData.weather[0].description;
+    document.getElementById('conditions').innerHTML = weatherData.weather[0].description;
+    document.getElementById('hightemp').innerHTML = weatherData.main.temp_max;
+    document.getElementById('lowtemp').innerHTML = weatherData.main.temp_min;
+    document.getElementById('humidity').innerHTML = weatherData.main.humidity;
+    document.getElementById('windspeed').innerHTML = weatherData.wind.speed;
 
-
-    document.getElementById('cc-img').setAttribute('src', icon);
-    document.getElementById('cc-img').setAttribute('alt', desc);
 }

@@ -13,7 +13,7 @@
                     
                 }
                 function nameCity(jsonObj)   {     
-                    let cities = jsonObj['towns'];                                                           let cities = jsonObj['towns'];
+                    let cities = jsonObj['towns'];                                                           
                 for (var i = 0; i < cities.length; i++) {
                     
                     let events = jsonObj['events'];

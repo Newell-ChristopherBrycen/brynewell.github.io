@@ -32,7 +32,7 @@ header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 
 /*----------- NAVIGATION --------------*/
-nav {	margin: 0 auto;	max-width: 360px; background-color: #000;	}
+nav {	margin: 0 auto;	max-width: 360px; background-color: darkblue;	}
 .navigation{
     list-style: none; 
     text-align: center;

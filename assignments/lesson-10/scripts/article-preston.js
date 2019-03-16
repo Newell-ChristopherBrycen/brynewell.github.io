@@ -15,7 +15,7 @@
                 function nameCity(jsonObj)   {    
                     var cities = jsonObj['towns']; 
                                                                            
-                for (var i = 0; i < cities.length; i++) {
+                for (var i = 0; i < cities.length ; i++) {
                     
                     let events = jsonObj['events'];
                         if (cities.name == 'Preston') {

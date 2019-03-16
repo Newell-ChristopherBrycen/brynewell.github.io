@@ -1,18 +1,28 @@
-let weatherRequest = new XMLHttpRequest();
-let apiURLstring = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=07407eccd051a7a7b4fc81e187f47771';
-weatherRequest.open('Get', apiURLstring, true);
-weatherRequest.send();
+let forecastRequest = new XMLHttpRequest();
+let apiURLstring2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=07407eccd051a7a7b4fc81e187f47771';
+forecastRequest.open('Get', apiURLstring2, true);
+forecastRequest.send();
 
-weatherRequest.onload = function() {
-    let weatherData = JSON.parse(weatherRequest.responseText);
-    console.log(weatherData);
-
-    document.getElementById('current-temp').innerHTML = weatherData.main.temp;
-    
-    let icon = "http://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png";
-    let desc = weatherData.weather[0].description;
+forecastRequest.onload = function() {
+    let forecastData = JSON.parse(forecastRequest.responseText);
+    console.log(forecastData);
 
 
-    document.getElementById('cc-img').setAttribute('src', icon);
-    document.getElementById('cc-img').setAttribute('alt', desc);
+    let i;
+    for (i = 0; i < forecastData.list.length && "18:00:00" == forecastData.list.dt_txt ; i++ ){
+    if  (forecastData.list.dt_txt = "18:00:00" ) {
+               
+        
+        document.getElementById('day1-temp').innerHTML = forecastData.list[i].main.temp + "&deg; F";
+        let icon = "http://openweathermap.org/img/w/" + forecastData.weather[i].icon + ".png";
+        let desc = forecastData.weather[i].description;
+
+
+        document.getElementById('day1-icon').setAttribute('src', icon);
+        document.getElementById('day1-icon').setAttribute('alt', desc);
+                
+        break;
+}
+
+}
 }

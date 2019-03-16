@@ -18,6 +18,7 @@ body {
     padding: 2rem;
     
 }
+table, td {border: 1px solid black;}
 header { text-align: center;
      display:flex; 
      flex-direction: row;

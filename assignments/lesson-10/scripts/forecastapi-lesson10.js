@@ -9,7 +9,7 @@ forecastRequest.onload = function() {
 
 
     let i;
-    for (i = 0; i < forecastData.list.length && "18:00:00" == forecastData.list.dt_txt ; i++ ){
+    for (i = 0; i < forecastData.list.length; i++ ){
     if  (forecastData.list.dt_txt = "18:00:00" ) {
                
         

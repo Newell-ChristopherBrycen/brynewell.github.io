@@ -23,17 +23,11 @@
                                 myH1.textContent = towns[i].motto; 
                                 myList.textContent = "Events in Preston";
                                     for (var j = 0; j < events.length; j++) {
-                                    let myListItem1 = document.createElement('li');
-                                    let myListItem2 = document.createElement('li');
-                                    let myListItem3 = document.createElement('li');
-                                    let myListItem4 = document.createElement('li');
-                                    let myListItem5 = document.createElement('li');
+                                    let myListItem = document.createElement('li');
+                                    
 
-                                    myListItem1.textContent = towns[i].events[j];
-                                    myListItem2.textContent = towns[i].events[j];
-                                    myListItem3.textContent = towns[i].events[j];
-                                    myListItem4.textContent = towns[i].events[j];
-                                    myListItem5.textContent = towns[i].events[j];
+                                    myListItem.textContent = towns[i].events[j];
+                                    
                                 }
                                
                                 

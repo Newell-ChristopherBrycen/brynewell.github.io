@@ -14,13 +14,14 @@ forecastRequest.onload = function() {
                
         
         document.getElementById('day1-temp').innerHTML = forecastData.list[i].main.temp + "&deg; F";
-        let icon = "http://openweathermap.org/img/w/" + forecastData.weather[i].icon + ".png";
-        let desc = forecastData.weather[i].description;
+        for (j = 0; j < forecastData.weather.length; j ++) {
+        let icon = "http://openweathermap.org/img/w/" + forecastData.weather[j].icon + ".png";
+        let desc = forecastData.weather[j].description;
 
 
         document.getElementById('day1-icon').setAttribute('src', icon);
         document.getElementById('day1-icon').setAttribute('alt', desc);
-                
+        }
         break;
 }
 

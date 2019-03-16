@@ -1,15 +1,17 @@
 let forecastRequest = new XMLHttpRequest();
-let apiURLstring2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=07407eccd051a7a7b4fc81e187f47771';
+let apiURLstring2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=0afcdb35770dba4e28b20dc7706ca070';
 forecastRequest.open('Get', apiURLstring2, true);
 forecastRequest.send();
 
 forecastRequest.onload = function() {
     let forecastData = JSON.parse(forecastRequest.responseText);
     console.log(forecastData);
+            getForecast(forecastData);
 
-
-    let i;
-    for (i = 0; i < forecastData.list.length; i++ ){
+};
+    function getForecast(jsonObj) {
+        var forecast = jsonObj["list"];
+    for ( let i = 0; i < forecast.list.length; i++ ){
     if  (forecastData.list.dt_txt = "18:00:00" ) {
                
         
@@ -21,9 +23,9 @@ forecastRequest.onload = function() {
 
         document.getElementById('day1-icon').setAttribute('src', icon);
         document.getElementById('day1-icon').setAttribute('alt', desc);
-        }
+        };
         break;
-}
+};
 
-}
-}
+};
+};

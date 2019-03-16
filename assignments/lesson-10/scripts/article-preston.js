@@ -1,6 +1,6 @@
 
                 
-                const output = document.querySelector('section');
+                const output = document.getElementById("article1");
                 const requestURL="https://byui-cit230.github.io/weather/data/towndata.json";
                 const request = new XMLHttpRequest();
                 request.open('GET', requestURL);
@@ -8,17 +8,18 @@
                 request.send();
                 
                 request.onload = function() {
-                    let citydata = request.response;
-                    nameCity(citydata);
+                    let citydata = JSON.parse(request.responseText);
+                    console.log(citydata);
+                        nameCity(citydata);
                     
                 }
                 function nameCity(jsonObj)   {    
-                    var cities = jsonObj['towns']; 
-                    let events = jsonObj['events'];                                                      
+                    var cities = jsonObj["towns"]; 
+                    let events = jsonObj["events"];                                                      
                 for (var i = 0; i < cities.length ; i++) {
                     
                     
-                        if (cities.name == 'Preston') {
+                        if (cities.name == "Preston") {
                                 let myH1 = document.createElement('h1');
                                 let myList = document.createElement('ul');
                                 myH1.textContent = towns[i].motto; 

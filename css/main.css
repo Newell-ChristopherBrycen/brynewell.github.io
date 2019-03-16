@@ -9,3 +9,6 @@ header, main, footer {margin: 1.25rem auto;padding: .5rem;max-width: 1080px; col
 header, footer, footer a {text-align: center;background-color: lightskyblue;color: black;}
 header img {width: 400px ;height: auto;float: right;}
 footer {font-size: 12px; color: black;}
+li {color: black;}
+a {color: red;}
+a:visited {color: purple;}

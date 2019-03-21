@@ -14,9 +14,8 @@
                     
                 }
                 function nameCity(jsonObj)   {    
-                    var cities = jsonObj["towns"]; 
-                    let events = jsonObj["events"];                                                      
-                for (var i = 0; i < cities.length ; i++) {
+                                                                         
+                for (var i = 0; i < jsonObj.towns.length ; i++) {
                     
                     
                         if (cities.name == "Preston") {
@@ -24,7 +23,7 @@
                                 let myList = document.createElement('ul');
                                 myH1.textContent = towns[i].motto; 
                                 myList.textContent = "Events in Preston";
-                                    for (var j = 0; j < events.length ; j++) {
+                                    for (var j = 0; j < jsonObj.events.length ; j++) {
                                     let myListItem = document.createElement('li');
                                     
 

@@ -18,9 +18,7 @@ header section.headings h1 { color: white;}
 nav .navigation li ul {color: white;}
     .navigation {display:flex; flex-direction: column;}
     .navigation li:first-child { display: none;}
-    .navigation li{
-        display: inline-block; padding-inline-end: 4px; padding-inline-start: 4px;
-     }
+    
      .navigation ul {
         list-style-type: none;
         padding: 0;

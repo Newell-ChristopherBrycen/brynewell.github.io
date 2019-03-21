@@ -6,10 +6,9 @@ forecastRequest.send();
 forecastRequest.onload = function() {
     let forecastData = JSON.parse(forecastRequest.responseText);
     console.log(forecastData);
-            getForecast(forecastData);
+            getForecast(jsonObj);
 
-};
-    function getForecast(jsonObj) {
+
         var forecast = jsonObj["list"];
     for ( let i = 0; i < forecast.list.length; i++ ){
     if  (forecastData.list.dt_txt = "18:00:00" ) {

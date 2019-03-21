@@ -32,7 +32,7 @@ header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 
 /*----------- NAVIGATION --------------*/
-nav {	margin: 0 auto;	max-width: 360px; background-color: #000;	}
+nav {	margin: 0 auto;	width: -webkit-fill-available; background-color: #000; justify-content: space-around; display:flex;	}
 .navigation{
     list-style: none; 
     text-align: center;
@@ -51,7 +51,7 @@ nav a:visited {
     background-color:gray;
     color: whitesmoke;
 }
-
+li {padding: 1rem;}
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;

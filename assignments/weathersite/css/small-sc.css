@@ -42,11 +42,11 @@ nav {	margin: 0 auto;	width: -webkit-fill-available; background-color: #000; jus
         justify-content: space-between;
         padding: 1rem;
 }
-.navigation li:first-child { display: block;}
+.navigation li:first-child { display: block; }
 .navigation li {display:none;}
 .responsive li {display:block;}
 .navigation a {color: white; text-decoration: none; text-align: center; display: block; }
-.navigation a:hover {color: green; background-color: #fff; font-weight: 700; margin: 3rem;}
+.navigation li a:hover {color: green; background-color: #fff; font-weight: 700; margin: 3rem;}
 nav a:visited {
     background-color:gray;
     color: whitesmoke;

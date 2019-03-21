@@ -15,6 +15,7 @@ body {
 }
 header {color:white;}
 header section.headings h1 { color: white;}
+nav {	margin: 0 auto;	width: -webkit-fill-available; background-color: #000;	}
 nav .navigation li ul {color: white;}
     .navigation {display:flex; flex-direction: column;}
     .navigation li:first-child { display: none;}
@@ -30,14 +31,11 @@ nav .navigation li ul {color: white;}
         padding: 15px;
         text-decoration: none;
         font-size: 30px;
-        justify-content: center;
+        justify-content: space-around;
     }
     
-    .navigation ul li {
-        display: inline-block;
-        text-align: center;
-    }
-    nav {	margin: 0 auto;	width: -webkit-fill-available; background-color: #000;	}
+    
+    
     nav a:visited {
         background-color:gray;
         color: whitesmoke;

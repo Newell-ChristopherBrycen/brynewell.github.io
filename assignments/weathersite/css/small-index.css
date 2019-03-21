@@ -1,0 +1,79 @@
+* {font-size: 1.1rem; font-weight: 700;}
+h1 {font-size: 50px; color: #ffffff; text-shadow: 1px 4px 6px #bbbbbb}
+h2 {font-size: 30px;}
+h1, h2, h3, h4 {font-family: 'Noto Sans', 'PT serif', Georgia, serif; text-align: center;}
+body {
+    font-size: 14px;
+    font-family: 'Noto Sans', 'PT serif', Georgia, serif;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    padding: 2rem;
+  
+    
+}
+header {color:white;}
+header section.headings h1 { color: white;}
+nav .navigation li ul {color: white;}
+    .navigation {display:flex; flex-direction: column;}
+    .navigation li:first-child { display: none;}
+    .navigation li{
+        display: inline-block; padding-inline-end: 4px; padding-inline-start: 4px;
+     }
+     .navigation ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .navigation ul li a {
+        display: flex;
+        color: #ffffff;
+        text-align:center;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 30px;
+        justify-content: center;
+    }
+    
+    .navigation ul li {
+        display: inline-block;
+        text-align: center;
+    }
+    nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
+    nav a:visited {
+        background-color:gray;
+        color: whitesmoke;
+    }
+header .motto {padding-bottom: 4px;  font-style: italic; text-align: center;}
+header { text-align: center;
+    display:flex; 
+    flex-direction: row;
+   flex-wrap: wrap; 
+   justify-content: center; 
+   margin: 10px auto; 
+   background-color: #4169e1; 
+   border: 1px solid #ffffff; 
+   box-shadow: 0 0 20px #4169e1; 
+}
+#motto {display: block; font-style: italic; text-align: center;}
+section {border: 1px solid #4169e1; padding: 2px; margin: 2px;
+}
+main {display:block;}
+ 
+    
+section h1 {color: green; font-size: 30px;}
+header section h1 {font-size: 50px;}
+
+
+#hero {background-color: azure;}
+#heroimage {max-width: 90%;padding:1.4rem;}
+article {background-color:azure;}
+footer {
+    margin: 10px auto;
+    padding: 1rem;
+    background-color: #4169e1;
+    border: 5px #ffffff;
+    box-shadow: 0 0 30px #00Bfff;
+    text-align: center;
+    color: white;
+}

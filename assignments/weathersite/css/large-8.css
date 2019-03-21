@@ -1,0 +1,64 @@
+@media screen and (min-width: 769px) {
+
+    .navigation {display: flex; flex-direction: row;}
+    .navigation li:first-child { display: none;}
+    .navigation li{
+        display: inline-block; padding-inline-end: 4px; padding-inline-start: 4px;
+     }
+    nav .menu2{
+        display:inline-block;
+    }
+    .weatherlist {width: 26%;}
+    .navigation ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .navigation ul li a {
+        display: block;
+        color: #ffffff;
+        text-align:center;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    
+    .navigation ul li {
+        display: inline-block;
+        text-align: center;
+    }
+    .menu2 li {
+        clear: both;
+        display: inline-block;
+        text-align: center;
+    }
+    header img, .headings {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 10px;
+    }
+    .article1 {display: inline-block;
+        clear: both;
+    }
+    .weatherlist{
+        top: initial;
+        left: 50px;
+        position: absolute;
+    }
+    .fiveday {
+        display: block;
+        width: 80%;
+        align-items: center;
+        height: auto;
+    }
+    
+    .responsivepicture {
+        width: 25% ;
+        background-position: 27rem;
+        float: right;
+        clear: both;
+    }
+    .foot {display:inline-block;}
+    #weathergallery {display:grid; grid-template-columns: 1fr 1fr 1fr;grid-gap: 20px;}
+    .hero {display:inline-block; height: auto; width: 100%}
+    .pictureholder:hover {  box-shadow: 0 0 50px #333333; }
+}

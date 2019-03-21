@@ -39,7 +39,7 @@ nav .navigation li ul {color: white;}
         display: inline-block;
         text-align: center;
     }
-    nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
+    nav {	margin: 0 auto;	width: -webkit-fill-available; background-color: #000;	}
     nav a:visited {
         background-color:gray;
         color: whitesmoke;

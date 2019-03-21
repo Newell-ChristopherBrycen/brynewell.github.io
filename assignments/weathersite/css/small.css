@@ -30,7 +30,7 @@ header { text-align: center;
     box-shadow: 0 0 20px #4169e1; 
 }
 main {position:relative; display: block;     background-color: #4169e1;}
-nav {	margin: 0 auto;	max-width: 760px; background-color: darkblue;	}
+nav {	margin: 0 auto;	width: -webkit-fill-available; background-color: darkblue;	}
 .navigation{
     list-style: none; 
     text-align: center;

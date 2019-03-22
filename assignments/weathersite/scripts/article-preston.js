@@ -1,6 +1,4 @@
-
-                
-                const output = document.getElementById("article1");
+const output = document.getElementById("article1");
                 const requestURL="https://byui-cit230.github.io/weather/data/towndata.json";
                 const request = new XMLHttpRequest();
                 request.open('GET', requestURL);
@@ -8,23 +6,26 @@
                 request.send();
                 
                 request.onload = function() {
-                    let jsonObj = JSON.parse(request.responseText);
+                    let towndata = JSON.parse(request.responseText);
+                     articleFunction(towndata);
+                }
+                function articleFunction(jsonData) {
+
+                  
+                   let towns = jsonData['towns'];                                                      
+                for (var i = 0; i < towns.length ; i++) {
                     
-                           
-                                                                         
-                for (var i = 0; i < jsonObj.length ; i++) {
                     
-                    
-                        if (jsonObj.name == "Preston") {
+                        if (towns.name == "Preston") {
                                 let myH1 = document.createElement('h1');
                                 let myList = document.createElement('ul');
-                                myH1.textContent = jsonObj[i].motto; 
+                                myH1.textContent = towns[i].motto; 
                                 myList.textContent = "Events in Preston";
-                                    for (var j = 0; j < jsonObj.events.length ; j++) {
+                                    for (var j = 0; j < events.length ; j++) {
                                     let myListItem = document.createElement('li');
                                     
 
-                                    myListItem.textContent = jsonObj[i].events[j];
+                                    myListItem.textContent = towns[i].events[j];
                                     
                                 };
                                

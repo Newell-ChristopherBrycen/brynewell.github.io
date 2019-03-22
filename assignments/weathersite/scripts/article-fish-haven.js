@@ -8,22 +8,22 @@
                 request.send();
                 
                 request.onload = function() {
-                    let citydata = JSON.parse(request.responseText);
+                    let towns = JSON.parse(request.responseText);
                        
                                                                          
                 for (var i = 0; i < jsonObj.towns.length ; i++) {
                     
                     
-                        if (cities.name == "Fish Haven") {
+                        if (jsonObj.name == "Fish Haven") {
                                 let myH1 = document.createElement('h1');
                                 let myList = document.createElement('ul');
-                                myH1.textContent = towns[i].motto; 
+                                myH1.textContent = jsonObj.towns[i].motto; 
                                 myList.textContent = "Events in Fish Haven";
                                     for (var j = 0; j < jsonObj.events.length ; j++) {
                                     let myListItem = document.createElement('li');
                                     
 
-                                    myListItem.textContent = towns[i].events[j];
+                                    myListItem.textContent = jsonObj.towns[i].events[j];
                                     
                                 };
                                

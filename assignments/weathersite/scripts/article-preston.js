@@ -8,23 +8,23 @@
                 request.send();
                 
                 request.onload = function() {
-                    let citydata = JSON.parse(request.responseText);
+                    let jsonObj = JSON.parse(request.responseText);
                     
                            
                                                                          
-                for (var i = 0; i < jsonObj.towns.length ; i++) {
+                for (var i = 0; i < jsonObj.length ; i++) {
                     
                     
-                        if (cities.name == "Preston") {
+                        if (jsonObj.name == "Preston") {
                                 let myH1 = document.createElement('h1');
                                 let myList = document.createElement('ul');
-                                myH1.textContent = towns[i].motto; 
+                                myH1.textContent = jsonObj[i].motto; 
                                 myList.textContent = "Events in Preston";
                                     for (var j = 0; j < jsonObj.events.length ; j++) {
                                     let myListItem = document.createElement('li');
                                     
 
-                                    myListItem.textContent = towns[i].events[j];
+                                    myListItem.textContent = jsonObj[i].events[j];
                                     
                                 };
                                

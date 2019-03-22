@@ -71,7 +71,7 @@
         </footer>
         <script> 
                 
-                const output = document.querySelector('section');
+                const output = document.querySelector('article');
                 const requestURL="https://byui-cit230.github.io/weather/data/towndata.json";
                 const request = new XMLHttpRequest();
                 request.open('GET', requestURL);
@@ -84,10 +84,10 @@
                     
                     nameCity(citydata);
                     
-                }
+                
                 function nameCity(jsonObj)   {                                                                let cities = jsonObj['towns'];
-                for (var i = 0; i < cities.length; i++) { 
-                        if (city.name == 'Fish Haven'|| city.name == 'Preston'|| city.name == 'Soda Springs') {
+                for (var i = 0; i < jsonObj.length; i++) { 
+                        if (jsonObj.name == 'Fish Haven'|| jsonObj.name == 'Preston'|| jsonObj.name == 'Soda Springs') {
                                 let myH1 = document.createElement('h1');
                                 let myPara1 = document.createElement('p');
                                 let myPara2 = document.createElement('p');
@@ -95,11 +95,11 @@
                                 let myPara4 = document.createElement('p');
                                
                                 
-                                myH1.textContent = cities[i].name;
-                                myPara1.textContent = 'Motto: ' + cities[i].motto;
-                                myPara2.textContent = 'Year Founded: ' + cities[i].yearFounded;
-                                myPara3.textContent = 'Current Population: ' + cities[i].currentPopulation;
-                                myPara4.textContent = 'Average Rainfall: ' + cities[i].averageRainfall;
+                                myH1.textContent = jsonObj[i].name;
+                                myPara1.textContent = 'Motto: ' + jsonObj[i].motto;
+                                myPara2.textContent = 'Year Founded: ' + jsonObj[i].yearFounded;
+                                myPara3.textContent = 'Current Population: ' + jsonObj[i].currentPopulation;
+                                myPara4.textContent = 'Average Rainfall: ' + jsonObj[i].averageRainfall;
                                 
                                
                                 output.appendChild(myH1);
@@ -114,7 +114,7 @@
                             
                             };
                         };
-                    
+                };
                     </script>
         <script src="scripts/hamburger.js"> </script>
     </body>

@@ -8,9 +8,10 @@ forecastRequest.onload = function() {
     
             
 
-        var forecast = jsonObj["list"];
-    for ( let i = 0; i < forecast.list.length; i++ ){
-    if  (forecastData.list.dt_txt = "18:00:00" ) {
+
+        var forecast = forecastData["list"];
+    for ( let i = 0; i < forecast.length; i++ ){
+    if  (list[i].dt_txt.includes('18:00:00')) {
                
         
         document.getElementById('day1-temp').innerHTML = forecastData.list[i].main.temp + "&deg; F";
@@ -22,7 +23,7 @@ forecastRequest.onload = function() {
         document.getElementById('day1-icon').setAttribute('src', icon);
         document.getElementById('day1-icon').setAttribute('alt', desc);
         };
-        break;
+        
 };
 
 };

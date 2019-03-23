@@ -1,4 +1,1 @@
-@media screen and (min-width: 426px) {
-    #weathergallery {display:grid; grid-template-columns: 1fr 1fr; grid-gap: 20px;}
-    
-}
+@media screen and (min-width:426px){#weathergallery{display:grid;grid-template-columns:1fr 1fr;grid-gap:20px}}

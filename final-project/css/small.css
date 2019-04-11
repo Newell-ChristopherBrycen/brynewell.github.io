@@ -24,7 +24,7 @@ nav {	margin: 0 auto; background-color: beige; width: -webkit-fill-available;	}
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    padding-right: 32px;
+    padding: 2rem;
 }
 .navigation li:first-child { display: block;}
 .navigation li {display:none;}
@@ -35,8 +35,8 @@ nav a:visited {
     background-color:beige;
     color: orangered;
 }
-.templesize {width: 400px;}
-.templefeature {width: 450px;}
+.templesize {width:16rem;}
+.templefeature {width: 16.5rem;}
 main {background-color: #c2d69b;  padding: 1.2rem;}
 legend {text-emphasis: bold;}
 form fieldset {

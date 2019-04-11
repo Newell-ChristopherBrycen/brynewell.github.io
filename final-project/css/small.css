@@ -93,7 +93,7 @@ form label.top input:required {
     display: none;
 }
 form label.top input:required:valid {
-    border-left: #e76125 6px;
+    border-left: green 6px;
 }
 #additionalinfo {width: 96%;}
 footer {

@@ -1,6 +1,16 @@
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 40rem) {
 .navigation{
     flex-direction: row;
     align-content: center;
     justify-content: space-between;}
+.navigation li:first-child {
+    flex-flow: column;
+    flex: auto;
+}
+.responsive li:first-child {
+    display:none;
+}
+.navigation li {
+    padding: 4px;
+}
 }

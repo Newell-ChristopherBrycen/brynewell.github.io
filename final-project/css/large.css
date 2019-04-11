@@ -1,0 +1,8 @@
+@media only screen and (min-width: 64rem) {
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: inline-block; 
+    }
+}

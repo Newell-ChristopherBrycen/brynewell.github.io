@@ -37,7 +37,8 @@ nav a:visited {
 }
 .templesize {width:16rem;}
 .templefeature {width: 16.5rem;}
-main {background-color: #c2d69b;  padding: 1.2rem;}
+.templephotos {background-color: #c2d69b;  padding: 1.2rem;}
+.featurephoto {background-color: #c2d69b; padding: 1.2rem;}
 legend {text-emphasis: bold;}
 form fieldset {
     margin: 2rem 0;

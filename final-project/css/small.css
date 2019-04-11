@@ -1,0 +1,102 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width:100%; }
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 1.1rem; }
+body {
+    font-size: 16px;
+    font-family: 'Noto Sans', 'PT serif', Georgia, serif;
+    width: 100%;
+    background-color: beige;
+}
+header {
+    padding: .5rem 2%;
+    background-color: #76923c;
+    text-align: center;
+    color:white;
+    
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+nav {	margin: 0 auto; background-color: beige; width: -webkit-fill-available;	}
+.navigation{
+    list-style: none; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-right: 32px;
+}
+.navigation li:first-child { display: block;}
+.navigation li {display:none;}
+.responsive li {display:block;}
+.navigation a {color: green; text-decoration: none; text-align: center; display: block; }
+.navigation a:hover {color: orangered; background-color: green; font-weight: 700;}
+nav a:visited {
+    background-color:beige;
+    color: orangered;
+}
+.templesize {width: 400px;}
+.templefeature {width: 450px;}
+main {background-color: #c2d69b;  padding: 1.2rem;}
+legend {text-emphasis: bold;}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: .5rem 2%;
+
+}
+form legend {
+    color: #e76125;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div {
+    display:block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+}
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display:block;
+    font: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: grey;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form label.sbs {
+    display:block;
+    padding: .75rem;
+    color: black;
+
+}
+form input.submitBtn {
+    border: none;
+    background-color:white;
+    color:green;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width:96%;
+    max-width: 20rem;
+}
+form label.top input:required {
+    border-left: #e76125 solid 6px;
+}
+#statelist .hidden {
+    display: none;
+}
+form label.top input:required:valid {
+    border-left: #e76125; 6px;
+}
+#additionalinfo {width: 96%;}
+footer {
+    background-color: #76923c;
+    padding: .5rem 2%;
+    text-align: center;
+}

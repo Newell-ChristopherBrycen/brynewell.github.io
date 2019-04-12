@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     flex-direction: column;
 }
-nav {	margin: 0 auto; background-color: beige; width: -webkit-fill-available;	}
+nav {	margin: 0 auto; background-color: beige; width: -webkit-fill-available; font-style: bold;	}
 .navigation{
     list-style: none; 
     text-align: center;

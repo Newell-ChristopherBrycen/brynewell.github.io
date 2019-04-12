@@ -35,7 +35,7 @@ nav a:visited {
     background-color:beige;
     color: black;
 }
-
+article { padding: inherit;}
 .templesize {width:11rem; height: 9.5rem;}
 .templefeature {width: 12.5rem;}
 .templephotos {background-color: #c2d69b;  padding: 1.2rem; margin: 8px;}

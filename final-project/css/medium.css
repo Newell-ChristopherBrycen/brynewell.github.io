@@ -1,20 +1,19 @@
 @media only screen and (min-width: 40rem) {
+    .navigation li:first-child {
+        display: none;
+    }
 .navigation{
     flex-direction: row;
     align-content: center;
     justify-content: space-between;}
-.navigation li:first-child {
-    flex-flow: column;
-    flex: auto;
-}
-.responsive li:first-child {
-    display:none;
-}
 .navigation li {
-    padding: 4px;
+    padding: 4px; display: inline-block;
 }
 .templephotos {display:grid;
 grid-template-columns: repeat(4, 1fr); grid-gap: 15px;}
 .featuredtemple {width: 50rem;}
-}
 .featurephoto {display:grid; grid-template-columns: repeat(4 1fr); grid-gap: 15px;}
+.templesize {width:16rem; height: 14rem;}
+.templefeature {width: 16.5rem;}
+
+}

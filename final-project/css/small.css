@@ -15,8 +15,9 @@ header {
     align-content: center;
     justify-content: space-between;
     flex-direction: column;
+    text-emphasis: bold;
 }
-nav {	margin: 0 auto; background-color: beige; width: -webkit-fill-available; }
+nav {	margin: 0 auto; background-color: white; width: -webkit-fill-available; }
 .navigation{
     list-style: none; 
     text-align: center;
@@ -32,16 +33,17 @@ nav {	margin: 0 auto; background-color: beige; width: -webkit-fill-available; }
 .navigation a:hover {color: darkred; background-color: green; font-weight: 18px;}
 nav a:visited {
     background-color:beige;
-    color: orangered;
+    color: black;
 }
-.templesize {width:16rem; height: 14rem;}
-.templefeature {width: 16.5rem;}
-.templephotos {background-color: #c2d69b;  padding: 1.2rem;}
-.featurephoto {background-color: #c2d69b; padding: 1.2rem;}
-.featurephoto h2 {padding: 1.5rem; font-size: 1.3rem;}
+
+.templesize {width:11rem; height: 9.5rem;}
+.templefeature {width: 12.5rem;}
+.templephotos {background-color: #c2d69b;  padding: 1.2rem; margin: 8px;}
+.featurephoto {background-color: #c2d69b; padding: 1.2rem; margin: 8px;}
+.featurephoto h2 {padding: 1.1rem; font-size: 1.3rem;}
 legend {text-emphasis: bold;}
 h1 {padding: inherit;}
-main {display: block; padding: 2rem;}
+main {display: inline-block; padding: 2rem;}
 form {padding:inherit; display: flex; flex-direction: column; align-items: baseline;}
 form fieldset {
     display: inline-flex;
@@ -105,6 +107,7 @@ footer {
     padding: .5rem 2%;
     text-align: center;
 }
+footer ul {list-style: none; padding:0; margin: 0;}
 main ul li {
     padding: .5rem 2%;
 }

@@ -1,10 +1,8 @@
 @media only screen and (min-width: 64rem) {
-    .navigation li:first-child {
-        display: none;
-    }
-    .navigation li {
-        display: inline-block; 
-        
-    }
-    .templesize {width: 32rem;}
+    
+    
+    .templesize {width:20rem; height: 18.5rem;}
+    .templefeature {width: 24rem;}
+    .templephotos {display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; }
+
 }

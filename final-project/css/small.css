@@ -101,3 +101,6 @@ footer {
     padding: .5rem 2%;
     text-align: center;
 }
+main ul li {
+    padding: .5rem 2%;
+}

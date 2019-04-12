@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+            <title>Temple Inn & Suites | Services</title>
+            <meta name="description" content="Temple Inn and Suites specializes in providing room and board for members of The Church Of Jesus Christ of Latter Day Saints. There are several different services provided by Temple Inn and Suites depending on your stay, varying from special accomodations to local amenities.">
+            <link href="https://fonts.googleapis.com/css?family=Noto+Serif%7cPT+Serif" rel="stylesheet">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/medium.css">
+            <link rel="stylesheet" href="css/large.css">
+     </head>
+    <body>
+        <header>
+            <a href="#"><img srcset="images/logo-temple-inn.jpg" alt="Temple Inn & Suites Logo"></a>
+            <h1>Temple Inn & Suites | Services</h1>
+            <nav>
+                <ul class="navigation"> 
+                        <li><a href="#" title="Menu" onclick="toggleMenu()"> &#9776; Menu</a></li>  
+                        <li><a href="home.html" >Home</a></li>
+                        <li><a href="temples.html" >Temples</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="../index.html">Assignment Portal</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1><a class="cta" href="reservations.html">Book Your Next Stay Now!</a></h1>
+            <article>
+                <img srcset="kitchenette-suite.jpg" alt="kitchenette suite picture">
+                <h1>Specifically for our full-time temple missionaries!</h1>
+                <p>Full-time temple missionaries are doing some of the most important work here on Earth, and to make their work easier to accomplish, we created accommodations just for them. Some of the many features of our kitchenette suites include:
+                    <ul>
+                        <li>A full working kitchen</li>
+                        <li>A Queen Size Bed</li>
+                        <li>A Washer and Drier for your laundry</li>
+                        <li>A Fridge</li>
+                        <li>And many others!</li>
+                    </ul> </p>
+            </article>           
+            <article>
+                <h1>Detailed Services</h1>
+                    <ul>
+                        <li>For details on wedding reception accommodations <a href="reception.html">Click Here</a></li>
+                        <li>For details on other services provided for all patrons <a href="services.html">Click Here</a></li>
+                    </ul>
+            </article>
+            <form method="get" action="thankscontact.html">
+                <fieldset>
+                     <legend>Contact Us for more details on our kitchenette suites for Full-Time Missionaries!</legend>
+                     <label class="top">Full Name<input type="text" name="fullname" pattern="[A-Za-z' -]{5,30}" required></label>
+                     <br>
+                     <label class="top">Your Email<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                     <br>
+                     <label class="top">Your Phone<input type="tel" name="phone" placeholder="5555555555" required></label>
+                     <br>
+                     <legend>How can we help you?</legend>
+                     <textarea id="additionalinfo" name="additionalinfo" rows="6" cols="35"></textarea>
+                </fieldset>
+                <input type="submit" value="Contact Us Today" class="submitBtn">
+            </form>
+        <footer>
+            <h1>Contact Us:</h1>
+            <ul>
+                <li>Phone Number: 555-555-5555</li>
+                <li>Email: example@byui.edu</li>
+                <li><a href="contact.html">More Information</a></li>
+            </ul>
+            <br>
+            <div class="smaller">
+                    Copyright &copy; 2019 | Temple Inn & Suites </a>      
+            </div>
+            <span id="currentdate"> </span>
+        </footer>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"> </script>
+    </body>
+</html>

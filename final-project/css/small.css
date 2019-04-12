@@ -41,7 +41,7 @@ nav a:visited {
 legend {text-emphasis: bold;}
 h1 {padding: inherit;}
 main {display: block; padding: 2rem;}
-form {padding:inherit; display:flex;}
+form {padding:inherit; display: flex;}
 form fieldset {
     margin: 2rem 0;
     border: 1px solid gray;
@@ -73,10 +73,8 @@ form label.top input, form label.top select {
     background-color: rgba(0,0,0,0.1);
 }
 form label.sbs {
-    display:block;
     padding: .75rem;
     color: black;
-
 }
 form input.submitBtn {
     border: none;
@@ -105,5 +103,4 @@ footer {
 }
 main ul li {
     padding: .5rem 2%;
-
 }

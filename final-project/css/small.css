@@ -48,8 +48,10 @@ form fieldset {
     border: 1px solid gray;
     border-radius: 10px;
     padding: .5rem 2%;
-    width: fit-content;
+    width: -webkit-fill-available;
+    display: flex;
 }
+input {display: flex;}
 form legend {
     color: #e76125;
     margin: 0 1rem;

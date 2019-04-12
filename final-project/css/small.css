@@ -81,6 +81,7 @@ form label.top input, form label.top select {
 form label.sbs {
     padding: .75rem;
     color: black;
+    display: flex;
 }
 form input.submitBtn {
     border: none;

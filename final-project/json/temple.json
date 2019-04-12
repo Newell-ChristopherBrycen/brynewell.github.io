@@ -1,0 +1,74 @@
+
+{
+    "temples": [
+        {
+        "templeName": "Jordan River Utah Temple",
+        "address": "10200 S Temple Drive, South Jordan, Utah 84095-8814, United States",
+        "telephone": "(1)801-254-3003",
+        "services": "Clothing rental available, Cafeteria available, No patron housing available, No distribution center nearby",
+        "history": "Announced February 3rd 1978, Groundbreaking on June 9th 1979, Dedicated November 16th 1981, Rededicated May 20th 2018",
+        "ordinanceSchedule": "Open Tuesdays through Saturdays every week. Baptistry available 5:00AM - 8:00PM Tuesday-Friday, and 6:00AM - 8:00PM on Saturdays. Initiatory available 5:00AM-8:00PM on Tuesday, and 6:00AM - 8:00PM on Wednesday-Saturday. Endowments available 5:00AM - 8:00PM on Tuesday, and 6:00AM - 8:00PM on Wednesday-Saturday. Sealings availabe 7:30AM - 8:50PM Tuesday - Saturday.",
+        "sessionSchedule": "Endowments available every 20 minutes.",
+        "templeClosedDates": [
+            "Monday, 3 June 2019 - Monday, 17 June 2019",
+            "Thursday, 4 July 2019",
+            "Wednesday, 24 July 2019",
+            "Saturday, 5 October 2019",
+            "Wednesday, 27 November 2019 (Limited Hours)",
+            "Thursday, 28 November 2019",
+            "Monday, 9 December 2019 - Monday, 23 December 2019",
+            "Tuesday, 24 December 2019",
+            "Wednesday, 25 December 2019",
+            "Tuesday, 31 December 2019",
+            "Wednesday, 1 January 2020"
+    ]
+    },
+    {
+        "templeName": "Mesa Arizona Temple",
+        "address": "101 S LeSueur, Mesa, Arizona, 85204-1031, United States",
+        "telephone": "Not Available",
+        "services": "Not Available",
+        "history": "Not Available",
+        "ordinanceSchedule": "Not Available",
+        "sessionSchedule": "Not Available",
+        "templeClosedDates": [
+            "Temple Currently closed during Renovation"
+    ]
+    },
+    {
+        "templeName": "San Diego California Temple",
+        "address": "7474 Charmant Dr, San Diego, California, 92122-5000, United States",
+        "telephone": "(1)858-622-0991",
+        "services": "Clothing rental available, Cafeteria available, No patron housing available, Distribution center nearby",
+        "history": "Announced April 7th 1984, Groundbreaking on February 27th 1988, Dedicated April 25th 1993",
+        "ordinanceSchedule": "Open Tuesday through Saturday. Baptisms available 8:00AM - 8:00PM Tuesday - Friday and 7:30AM - 7:30PM on Saturday. Initiatory available 8:00AM - 8:00PM Tuesday - Friday and 8:00AM - 8:30PM on Saturday. Endowment available 5:30AM - 7:30PM on Tuesday, 8:00AM - 7:30PM Wednesday - Friday, and 7:30AM - 7:00PM on Saturday. Sealing Available 8:00AM - 8:30PM Tuesday - Thursday, 8:00AM - 9:00PM on Friday, and 7:30AM - 8:00PM on Saturday.",
+        "sessionSchedule": "Endowments available every 30 minutes, some sessions in Spanish.",
+        "templeClosedDates": [
+            "Thursday, 4 July 2019",
+            "Monday, 30th September 2019 - Monday, 11 November 2019",
+            "Wednesday, 27 November 2019 - Thursday, 28 November 2019",
+            "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+            "Tuesday, 31 December 2019"
+    ]
+    },
+    {
+        "templeName": "St. George Utah Temple",
+        "address": "250 E 400 S, St George, Utah 84770-3699, United States",
+        "telephone": "(1)435-673-3533",
+        "services": "Clothing rental available, Cafeteria available, Patron housing available, Distribution center nearby",
+        "history": "Announced November 9th 1871, Groundbreaking on November 9th 1871, Dedicated April 6th 1877, Rededicated November 11th 1975",
+        "ordinanceSchedule": "Open Monday - Saturday. Baptisms 6:00AM - 11:30AM Mondays, 6:00AM - 9:00PM Tuesday - Friday, and 6:00AM - 8:00PM on Saturdays. Initiatory available 7:00AM - 11:30AM Monday, and 7:00AM - 8:15PM Tuesday - Saturday. Endowments available 7:20AM - 11:20AM Monday, 7:20AM - 8:00PM Tuesday, Thursday, and Friday, 5:30AM - 8:00PM on Wednesday, and 6:00AM - 8:00PM on Saturday. Sealings available 7:20AM - 12:00PM Monday, and 7:20AM - 8:40PM Tuesday - Saturday." ,
+        "sessionSchedule": "Endowments available every 40 minutes.",
+        "templeClosedDates": [
+            "Monday, 27 May 2019",
+            "Thursday, 4 July 2019",
+            "Wednesday, 24 July 2019",
+            "Monday, 2 September 2019",
+            "Monday, 9 September 2019 - Saturday, 21 September 2019",
+            "Saturday, 5 October 2019",
+            "Monday, 4 November 2019 - Friday, 4 November 2022"
+        ]
+        }
+    
+    ]
+    }

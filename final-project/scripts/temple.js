@@ -1,4 +1,4 @@
- var requestURL = 'https://brynewell.github.io/json/temple.json';
+ var requestURL = 'https://brynewell.github.io/final-project/json/temple.json';
  var request = new XMLHttpRequest();
 
  request.open('GET', requestURL);

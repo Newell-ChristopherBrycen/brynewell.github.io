@@ -13,4 +13,8 @@
 .navigation li {
     padding: 4px;
 }
+.templephotos {display:grid;
+grid-template-columns: repeat(4, 1fr); grid-gap: 15px;}
+.featuredtemple {width: 50rem;}
 }
+.featurephoto {display:grid; grid-template-columns: repeat(4 1fr); grid-gap: 15px;}

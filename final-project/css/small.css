@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     flex-direction: column;
 }
-nav {	margin: 0 auto; background-color: beige; width: -webkit-fill-available; text-emphasis:bold;	}
+nav {	margin: 0 auto; background-color: beige; width: -webkit-fill-available; }
 .navigation{
     list-style: none; 
     text-align: center;
@@ -27,17 +27,18 @@ nav {	margin: 0 auto; background-color: beige; width: -webkit-fill-available; te
 }
 .navigation li:first-child { display: block;}
 .navigation li {display:none;}
-.responsive li {display:block;}
+.responsive li {display:block; padding: 3px; text-emphasis:bold;	}
 .navigation a {color: green; text-decoration: none; text-align: center; display: block; }
-.navigation a:hover {color: orangered; background-color: green; font-weight: 700;}
+.navigation a:hover {color: darkred; background-color: green; font-weight: 18px;}
 nav a:visited {
     background-color:beige;
     color: orangered;
 }
-.templesize {width:16rem;}
+.templesize {width:16rem; height: 14rem;}
 .templefeature {width: 16.5rem;}
 .templephotos {background-color: #c2d69b;  padding: 1.2rem;}
 .featurephoto {background-color: #c2d69b; padding: 1.2rem;}
+.featurephoto h2 {padding: 1.5rem; font-size: 1.3rem;}
 legend {text-emphasis: bold;}
 h1 {padding: inherit;}
 main {display: block; padding: 2rem;}
@@ -107,3 +108,4 @@ footer {
 main ul li {
     padding: .5rem 2%;
 }
+.cta {font-size: inherit; color: green;}

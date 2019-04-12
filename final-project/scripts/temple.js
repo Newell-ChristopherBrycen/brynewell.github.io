@@ -7,9 +7,11 @@
  request.send();
 
  request.onload = function() {
-     var templeFill = request.response;
-     
-     document.getElementById('name1').innerHTML = temples[0].templeName;
+     var temples = request.response;
+     fillTemple(temples);
+ }
+ function fillTemple(jsonObj) {
+     document.getElementById('name1').innerHTML = jsonObj[temple[0].templeName];
      document.getElementById('address1').innerHTML = temple[0].address;
      document.getElementById('telephone1').innerHTML = temple[0].telephone;
      document.getElementById('services1').innerHTML = temple[0].services;
@@ -18,7 +20,7 @@
      document.getElementById('session1').innerHTML = temple[0].sessionSchedule;
      document.getElementById('closed1').innerHTML = temple[0].templeClosedDates;
 
-     document.getElementById('name2').innerHTML = temples[1].templeName;
+     document.getElementById('name2').innerHTML = temple[1].templeName;
      document.getElementById('address2').innerHTML = temple[1].address;
      document.getElementById('telephone2').innerHTML = temple[1].telephone;
      document.getElementById('services2').innerHTML = temple[1].services;
@@ -27,7 +29,7 @@
      document.getElementById('session2').innerHTML = temple[1].sessionSchedule;
      document.getElementById('closed2').innerHTML = temple[1].templeClosedDates;
 
-     document.getElementById('name3').innerHTML = temples[2].templeName;
+     document.getElementById('name3').innerHTML = temple[2].templeName;
      document.getElementById('address3').innerHTML = temple[2].address;
      document.getElementById('telephone3').innerHTML = temple[2].telephone;
      document.getElementById('services3').innerHTML = temple[2].services;
@@ -36,7 +38,7 @@
      document.getElementById('session3').innerHTML = temple[2].sessionSchedule;
      document.getElementById('closed3').innerHTML = temple[2].templeClosedDates;
 
-     document.getElementById('name4').innerHTML = temples[3].templeName;
+     document.getElementById('name4').innerHTML = temple[3].templeName;
      document.getElementById('address4').innerHTML = temple[3].address;
      document.getElementById('telephone4').innerHTML = temple[3].telephone;
      document.getElementById('services4').innerHTML = temple[3].services;

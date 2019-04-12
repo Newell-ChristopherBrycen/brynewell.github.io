@@ -7,18 +7,29 @@
  request.send();
 
  request.onload = function() {
-     var temples = request.response;
+     let temples = request.response;
      fillTemple(temples);
+     console.log(temples);
  }
  function fillTemple(jsonObj) {
-     document.getElementById('name1').innerHTML = jsonObj[temple[0].templeName];
-     document.getElementById('address1').innerHTML = temple[0].address;
-     document.getElementById('telephone1').innerHTML = temple[0].telephone;
-     document.getElementById('services1').innerHTML = temple[0].services;
-     document.getElementById('history1').innerHTML = temple[0].history;
-     document.getElementById('ordinance1').innerHTML = temple[0].ordinanceSchedule;
-     document.getElementById('session1').innerHTML = temple[0].sessionSchedule;
-     document.getElementById('closed1').innerHTML = temple[0].templeClosedDates;
+     let temple = jsonObj['temple'];
+
+     let myName1 = document.getElementById('name1').innerHTML; 
+     let myAddress1 = document.getElementById('address1').innerHTML;
+     myName1.textContent = temple[0].templeName;
+     myAddress1.textContent = temple[0].address;
+     let myTelephone1 = document.getElementById('telephone1').innerHTML; 
+     myTelephone1.textContent = temple[0].telephone;
+     let myServices1 = document.getElementById('services1').innerHTML;
+     myServices1.textContent = temple[0].services;
+     let myHistory1 = document.getElementById('history1').innerHTML;
+     myHistory1.textContent = temple[0].history;
+     let myOrdinance1 = document.getElementById('ordinance1').innerHTML; 
+     myOrdinance1.textContent = temple[0].ordinanceSchedule;
+     let mySession1 = document.getElementById('session1').innerHTML;
+     mySession1.textContent = temple[0].sessionSchedule;
+     let myClosed1 = document.getElementById('closed1').innerHTML; 
+     myClosed1.textContent = temple[0].templeClosedDates;
 
      document.getElementById('name2').innerHTML = temple[1].templeName;
      document.getElementById('address2').innerHTML = temple[1].address;

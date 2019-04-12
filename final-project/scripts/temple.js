@@ -9,10 +9,9 @@
  request.onload = function() {
      let temples = request.response;
      fillTemple(temples);
-     console.log(temples);
  }
- function fillTemple(jsonObj) {
-     let temple = jsonObj['temple'];
+ function fillTemple(jsonData) {
+     let temple = jsonData['temple'];
 
      let myName1 = document.getElementById('name1').innerHTML; 
      let myAddress1 = document.getElementById('address1').innerHTML;

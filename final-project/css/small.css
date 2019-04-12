@@ -43,6 +43,7 @@ h1 {padding: inherit;}
 main {display: block; padding: 2rem;}
 form {padding:inherit; display: flex; flex-direction: column; align-items: baseline;}
 form fieldset {
+    display: inline-flex;
     margin: 2rem 0;
     border: 1px solid gray;
     border-radius: 10px;

@@ -1,4 +1,4 @@
- var requestURL = 'https://brynewell.github.io/final-project/json/temple.json';
+ const requestURL = 'https://brynewell.github.io/final-project/json/temple.json';
  var request = new XMLHttpRequest();
 
  request.open('GET', requestURL);
@@ -7,7 +7,7 @@
  request.send();
 
  request.onload = function() {
-     let temples = request.response;
+     let temples = JSON.parse(request.response);
      fillTemple(temples);
      console.log(temples);
  }

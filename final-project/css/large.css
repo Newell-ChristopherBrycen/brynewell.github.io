@@ -1,8 +1,8 @@
 @media only screen and (min-width: 64rem) {
     
     
-    .templesize {width:20rem; height: 18.5rem;}
-    .templefeature {width: 24rem;}
-    .templephotos {display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; }
+    .templesize {width:35rem; height: 30.5rem;}
+    .templefeature {width: 30rem;}
+    
 
 }

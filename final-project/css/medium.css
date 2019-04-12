@@ -9,8 +9,6 @@
 .navigation li {
     padding: 4px; display: inline-block;
 }
-.templephotos {display:grid;
-grid-template-columns: repeat(4, 1fr); grid-gap: 15px;}
 .featuredtemple {width: 50rem;}
 .featurephoto {display:grid; grid-template-columns: repeat(4 1fr); grid-gap: 15px;}
 .templesize {width:16rem; height: 14rem;}

@@ -7,6 +7,7 @@ body {
     background-color: beige;
 }
 header {
+    width: -webkit-fill-available;
     padding: .5rem 2%;
     background-color: #76923c;
     text-align: center;
@@ -35,12 +36,13 @@ nav a:visited {
     background-color:beige;
     color: black;
 }
-article { padding: inherit;}
+article {padding: inherit; }
 .templesize {width:11rem; height: 9.5rem;}
 .templefeature {width: 12.5rem;}
-.templephotos {background-color: #c2d69b;  padding: 1.2rem; margin: 8px;}
+#templephotos {background-color: #c2d69b;  padding: 1.2rem; margin: 8px; display: grid; grid-gap: 15px;}
 .featurephoto {background-color: #c2d69b; padding: 1.2rem; margin: 8px;}
 .featurephoto h2 {padding: 1.1rem; font-size: 1.3rem;}
+.templename {text-emphasis: bold; font-size: 1.2rem;}
 legend {text-emphasis: bold;}
 h1 {padding: inherit;}
 main {display: inline-block; padding: 2rem;}

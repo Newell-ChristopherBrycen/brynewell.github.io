@@ -11,7 +11,6 @@ header {
     background-color: #76923c;
     text-align: center;
     color:white;
-    
     display:flex;
     align-content: center;
     justify-content: space-between;
@@ -40,6 +39,9 @@ nav a:visited {
 .templephotos {background-color: #c2d69b;  padding: 1.2rem;}
 .featurephoto {background-color: #c2d69b; padding: 1.2rem;}
 legend {text-emphasis: bold;}
+form {padding:inherit;}
+h1 {padding: inherit;}
+main {display: block; padding: 2rem;}
 form fieldset {
     margin: 2rem 0;
     border: 1px solid gray;
@@ -103,4 +105,5 @@ footer {
 }
 main ul li {
     padding: .5rem 2%;
+
 }

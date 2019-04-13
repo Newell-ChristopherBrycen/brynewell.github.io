@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     font-family: 'Noto Sans', 'PT serif', Georgia, serif;
     width: 100%;
-    background-color:beige;
+    background-color:#f9FBF5;
 }
 header {
     width: -webkit-fill-available;
@@ -18,7 +18,7 @@ header {
     flex-direction: column;
     text-emphasis: bold;
 }
-nav {	margin: 0 auto; background-color: white; width: -webkit-fill-available; }
+nav {	margin: 0 auto; background-color: #9A82cc; width: -webkit-fill-available; }
 .navigation{
     list-style: none; 
     text-align: center;
@@ -30,16 +30,17 @@ nav {	margin: 0 auto; background-color: white; width: -webkit-fill-available; }
 .navigation li:first-child { display: block;}
 .navigation li {display:none;}
 .responsive li {display:block; padding: 3px; text-emphasis:bold;	}
-.navigation a {color: green; text-decoration: none; text-align: center; display: block; }
-.navigation a:hover {color: darkred; background-color: green; font-weight: 18px;}
-nav a:visited {
-    background-color:beige;
+.navigation a {color: white; text-decoration: none; text-align: center; display: block; }
+.navigation a:hover {color: black; background-color: #c2d69b; font-weight: 18px;}
+.navigation a:visited {
+    background-color:#c2d69b;
     color: black;
 }
 article {padding: inherit; }
 .templesize {width:11rem; height: 9.5rem;}
 .templefeature {width: 12.5rem;}
 #templephotos {background-color: #c2d69b;  padding: 1.2rem; margin: 8px; display: grid; grid-gap: 15px;}
+#templephotos a { color: black;}
 .featurephoto {background-color: #c2d69b; padding: 1.2rem; margin: 8px;}
 .featurephoto h2 {padding: 1.1rem; font-size: 1.3rem;}
 .templename {text-emphasis: bold; font-size: 1.2rem;}

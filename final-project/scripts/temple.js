@@ -9,7 +9,6 @@
  request.onload = function() {
      let temples = request.response;
      fillTemple(temples);
-     console.log(temples);
  }
  function fillTemple(jsonData) {
      let temple = jsonData['temple'];

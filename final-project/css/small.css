@@ -58,6 +58,7 @@ form fieldset {
     width: -webkit-fill-available;
     display: flex;
 }
+article.featurephoto p {font-size: 1.3rem;}
 input {display: flex;}
 form legend {
     color:black;

@@ -11,7 +11,7 @@
 }
 .featuredtemple {width: 50rem;}
 .featurephoto {display:grid; grid-template-columns: repeat(4 1fr); grid-gap: 15px;}
-.templesize {width:16rem; height: 14rem;}
-.templefeature {width: 16.5rem;}
+.templesize {width:60%;}
+.templefeature {width: 65%;}
 
 }

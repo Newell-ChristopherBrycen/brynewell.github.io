@@ -39,8 +39,8 @@ nav {	margin: 0 auto; background-color: #c2d69b; width: -webkit-fill-available; 
 }
 
 article {padding: inherit; background-color: #c2d69b; padding: .25rem; margin: .5rem;}
-.templesize {width:11rem; height: 9.5rem;}
-.templefeature {width: 12.5rem;}
+.templesize {width: 50%;}
+.templefeature {width: 55%;}
 .templephotos {background-color: #c2d69b;  padding: 1.2rem; margin: 8px; display: grid; grid-gap: 15px;}
 .templephotos a { color: black;}
 .featurephoto {background-color: #c2d69b; padding: 1.2rem; margin: 8px;}

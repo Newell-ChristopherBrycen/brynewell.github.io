@@ -5,7 +5,7 @@
 .navigation{
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;}
+    }
 .navigation li {
     padding: 4px; display: inline-block;
 }

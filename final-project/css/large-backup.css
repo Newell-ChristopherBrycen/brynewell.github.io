@@ -3,6 +3,6 @@
     
     .templesize {width: 90%;}
     .templefeature {width: 92%;}
-    
+    .homeflex { display: flex; align-items: center;}
 
 }
